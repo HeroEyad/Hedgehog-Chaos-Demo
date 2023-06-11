@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="hc_freeplay.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="freeplay basic" x="0" y="0" width="927" height="218"/>
+	<SubTexture name="freeplay white" x="0" y="218" width="1017" height="257"/>
+</TextureAtlas>

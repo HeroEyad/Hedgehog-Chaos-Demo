@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="songimages.png">
+<SubTexture name="Chilli portrait_0000" x="0" y="0" width="1595" height="2174" frameX="0" frameY="0" frameWidth="1595" frameHeight="2174" />
+<SubTexture name="Dorkly portrait_0000" x="1595" y="0" width="1595" height="2174" frameX="0" frameY="0" frameWidth="1595" frameHeight="2174" />
+<SubTexture name="Sanic portrait_0000" x="3190" y="0" width="1595" height="2174" frameX="0" frameY="0" frameWidth="1595" frameHeight="2174" />
+<SubTexture name="Sonico portrait_0000" x="0" y="2174" width="1595" height="2174" frameX="0" frameY="0" frameWidth="1595" frameHeight="2174" />
+<SubTexture name="Sunk portrait_0000" x="1595" y="2174" width="1595" height="2174" frameX="0" frameY="0" frameWidth="1595" frameHeight="2174" />
+</TextureAtlas>

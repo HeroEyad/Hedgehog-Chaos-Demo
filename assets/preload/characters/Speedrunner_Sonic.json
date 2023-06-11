@@ -1,0 +1,103 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				40,
+				-284
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "sonic idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				50,
+				-280
+			],
+			"anim": "chilidogs",
+			"fps": 24,
+			"name": "sonic chilli dog",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				57,
+				-301
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "sonic left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-35,
+				-283
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "sonic up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				50,
+				-280
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "sonic chilli dog",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-30,
+				-349
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "sonic down"
+		},
+		{
+			"offsets": [
+				48,
+				-479
+			],
+			"indices": [
+				0,
+				1
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "sonic right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/speedrunner_sonic",
+	"position": [
+		40,
+		80
+	],
+	"healthicon": "speedrunner_sonic",
+	"flip_x": false,
+	"healthbar_colors": [
+		37,
+		92,
+		255
+	],
+	"camera_position": [
+		160,
+		320
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

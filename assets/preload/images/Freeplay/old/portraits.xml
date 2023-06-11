@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="portraits.png">
+	<!-- Created with Adobe Animate version 21.0.2.37893 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Chilli_portrait_" x="10" y="10" width="1595" height="2174" pivotX="0" pivotY="0"/>
+	<SubTexture name="Dorkly_portrait_" x="1615" y="10" width="1595" height="2174" pivotX="0" pivotY="0"/>
+	<SubTexture name="Sanic_portrait_" x="3220" y="10" width="1595" height="2174" pivotX="0" pivotY="0"/>
+	<SubTexture name="Sonico_portrait_" x="4825" y="10" width="1595" height="2174" pivotX="0" pivotY="0"/>
+	<SubTexture name="Sunk_portrait_" x="6430" y="10" width="1595" height="2174" pivotX="0" pivotY="0"/>
+</TextureAtlas>

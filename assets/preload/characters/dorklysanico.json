@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				-21
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "dorkly left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				55,
+				-19
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "dorkly down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				-23
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "dorkly up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-29,
+				-19
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "dorkly right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				2,
+				-21
+			],
+			"loop": false,
+			"fps": 40,
+			"anim": "idle",
+			"indices": [],
+			"name": "dorkly idle"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/dorkly_gay",
+	"position": [
+		-470,
+		200
+	],
+	"healthicon": "dorkly",
+	"flip_x": false,
+	"healthbar_colors": [
+		32,
+		32,
+		160
+	],
+	"camera_position": [
+		70,
+		-170
+	],
+	"sing_duration": 6.1,
+	"scale": 1.5
+}

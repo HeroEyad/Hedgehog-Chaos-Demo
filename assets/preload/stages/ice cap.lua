@@ -1,0 +1,17 @@
+function onCreate()
+
+        makeLuaSprite('sun', 'sun',-500, -250)
+	addLuaSprite('sun',false)
+        makeLuaSprite('mountains', 'mountains',-500, -250)
+	addLuaSprite('mountains',false)
+        makeLuaSprite('sun', 'sun',-500, -250)
+	addLuaSprite('sun',false)
+        makeLuaSprite('ice', 'ice',-500, -250)
+	addLuaSprite('ice',false)
+        makeLuaSprite('snow', 'snow',-500, -250)
+	addLuaSprite('snow',false)
+        makeLuaSprite('strawberry', 'strawberry',-500, -250)
+	addLuaSprite('strawberry',true)
+        makeLuaSprite('ice_pillar', 'ice_pillar',-500, -250)
+	addLuaSprite('ice_pillar',true)
+end

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bf menu.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bf bop0000" x="0" y="0" width="537" height="403" frameX="0" frameY="-13" frameWidth="541" frameHeight="416"/>
+	<SubTexture name="bf bop0001" x="0" y="0" width="537" height="403" frameX="0" frameY="-13" frameWidth="541" frameHeight="416"/>
+	<SubTexture name="bf bop0002" x="547" y="0" width="536" height="403" frameX="0" frameY="-13" frameWidth="541" frameHeight="416"/>
+	<SubTexture name="bf bop0003" x="1093" y="0" width="536" height="403" frameX="0" frameY="-13" frameWidth="541" frameHeight="416"/>
+	<SubTexture name="bf bop0004" x="0" y="413" width="538" height="409" frameX="0" frameY="-7" frameWidth="541" frameHeight="416"/>
+	<SubTexture name="bf bop0005" x="0" y="413" width="538" height="409" frameX="0" frameY="-7" frameWidth="541" frameHeight="416"/>
+	<SubTexture name="bf bop0006" x="548" y="413" width="541" height="416"/>
+	<SubTexture name="bf bop0007" x="548" y="413" width="541" height="416"/>
+	<SubTexture name="bf bop0008" x="1099" y="413" width="541" height="416"/>
+	<SubTexture name="bf bop0009" x="1099" y="413" width="541" height="416"/>
+	<SubTexture name="bf bop0010" x="1099" y="413" width="541" height="416"/>
+	<SubTexture name="bf bop0011" x="1099" y="413" width="541" height="416"/>
+	<SubTexture name="bf bop0012" x="1099" y="413" width="541" height="416"/>
+	<SubTexture name="bf bop0013" x="1099" y="413" width="541" height="416"/>
+	<SubTexture name="bf hey0000" x="0" y="839" width="534" height="422" frameX="0" frameY="0" frameWidth="541" frameHeight="422"/>
+	<SubTexture name="bf hey0001" x="0" y="839" width="534" height="422" frameX="0" frameY="0" frameWidth="541" frameHeight="422"/>
+	<SubTexture name="bf hey0002" x="544" y="839" width="540" height="418" frameX="0" frameY="-4" frameWidth="541" frameHeight="422"/>
+	<SubTexture name="bf hey0003" x="1094" y="839" width="540" height="418" frameX="0" frameY="-4" frameWidth="541" frameHeight="422"/>
+	<SubTexture name="bf hey0004" x="0" y="1271" width="541" height="416" frameX="0" frameY="-6" frameWidth="541" frameHeight="422"/>
+	<SubTexture name="bf hey0005" x="0" y="1271" width="541" height="416" frameX="0" frameY="-6" frameWidth="541" frameHeight="422"/>
+	<SubTexture name="bf hey0006" x="0" y="1271" width="541" height="416" frameX="0" frameY="-6" frameWidth="541" frameHeight="422"/>
+	<SubTexture name="bf hey0007" x="0" y="1271" width="541" height="416" frameX="0" frameY="-6" frameWidth="541" frameHeight="422"/>
+	<SubTexture name="bf hey0008" x="0" y="1271" width="541" height="416" frameX="0" frameY="-6" frameWidth="541" frameHeight="422"/>
+	<SubTexture name="bf hey0009" x="0" y="1271" width="541" height="416" frameX="0" frameY="-6" frameWidth="541" frameHeight="422"/>
+	<SubTexture name="bf hey0010" x="0" y="1271" width="541" height="416" frameX="0" frameY="-6" frameWidth="541" frameHeight="422"/>
+	<SubTexture name="bf hey0011" x="0" y="1271" width="541" height="416" frameX="0" frameY="-6" frameWidth="541" frameHeight="422"/>
+	<SubTexture name="bf hey0012" x="0" y="1271" width="541" height="416" frameX="0" frameY="-6" frameWidth="541" frameHeight="422"/>
+	<SubTexture name="bf hey0013" x="0" y="1271" width="541" height="416" frameX="0" frameY="-6" frameWidth="541" frameHeight="422"/>
+</TextureAtlas>

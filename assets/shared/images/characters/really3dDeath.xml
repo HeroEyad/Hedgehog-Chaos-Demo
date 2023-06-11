@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="really3dDeath.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="again0000" x="0" y="0" width="604" height="483"/>
+	<SubTexture name="again0001" x="604" y="0" width="604" height="483"/>
+	<SubTexture name="again0002" x="1208" y="0" width="604" height="483"/>
+	<SubTexture name="again0003" x="1812" y="0" width="604" height="483"/>
+	<SubTexture name="again0004" x="2416" y="0" width="604" height="483"/>
+	<SubTexture name="again0005" x="3020" y="0" width="604" height="483"/>
+	<SubTexture name="again0006" x="3020" y="0" width="604" height="483"/>
+	<SubTexture name="again0007" x="3020" y="0" width="604" height="483"/>
+	<SubTexture name="again0008" x="3020" y="0" width="604" height="483"/>
+	<SubTexture name="again0009" x="3020" y="0" width="604" height="483"/>
+	<SubTexture name="death0000" x="0" y="483" width="604" height="483"/>
+	<SubTexture name="death0001" x="604" y="483" width="604" height="483"/>
+	<SubTexture name="death0002" x="1208" y="483" width="604" height="483"/>
+	<SubTexture name="death0003" x="1812" y="483" width="604" height="483"/>
+	<SubTexture name="death0004" x="2416" y="483" width="604" height="483"/>
+	<SubTexture name="death0005" x="3020" y="483" width="604" height="483"/>
+	<SubTexture name="death0006" x="0" y="966" width="604" height="483"/>
+	<SubTexture name="death0007" x="604" y="966" width="604" height="483"/>
+	<SubTexture name="death0008" x="1208" y="966" width="604" height="483"/>
+	<SubTexture name="death0009" x="1812" y="966" width="604" height="483"/>
+	<SubTexture name="death0010" x="2416" y="966" width="604" height="483"/>
+	<SubTexture name="death0011" x="3020" y="966" width="604" height="483"/>
+	<SubTexture name="death0012" x="0" y="1449" width="604" height="483"/>
+	<SubTexture name="death0013" x="604" y="1449" width="604" height="483"/>
+	<SubTexture name="death0014" x="0" y="0" width="604" height="483"/>
+	<SubTexture name="death0015" x="1208" y="1449" width="604" height="483"/>
+	<SubTexture name="death0016" x="1812" y="1449" width="604" height="483"/>
+	<SubTexture name="death0017" x="2416" y="1449" width="604" height="483"/>
+	<SubTexture name="death0018" x="3020" y="1449" width="604" height="483"/>
+	<SubTexture name="death0019" x="1990" y="1932" width="604" height="483" frameX="0" frameY="0" frameWidth="692" frameHeight="554"/>
+	<SubTexture name="loop0000" x="0" y="1932" width="692" height="554"/>
+	<SubTexture name="loop0001" x="692" y="1932" width="661" height="528" frameX="-16" frameY="-12" frameWidth="692" frameHeight="554"/>
+	<SubTexture name="loop0002" x="1353" y="1932" width="637" height="510" frameX="-28" frameY="-22" frameWidth="692" frameHeight="554"/>
+	<SubTexture name="loop0003" x="1990" y="1932" width="604" height="483" frameX="-44" frameY="-35" frameWidth="692" frameHeight="554"/>
+	<SubTexture name="loop0004" x="1990" y="1932" width="604" height="483" frameX="-44" frameY="-35" frameWidth="692" frameHeight="554"/>
+	<SubTexture name="loop0005" x="1990" y="1932" width="604" height="483" frameX="-44" frameY="-35" frameWidth="692" frameHeight="554"/>
+	<SubTexture name="loop0006" x="1990" y="1932" width="604" height="483" frameX="-44" frameY="-35" frameWidth="692" frameHeight="554"/>
+	<SubTexture name="loop0007" x="1990" y="1932" width="604" height="483" frameX="-44" frameY="-35" frameWidth="692" frameHeight="554"/>
+	<SubTexture name="loop0008" x="1990" y="1932" width="604" height="483" frameX="-44" frameY="-35" frameWidth="692" frameHeight="554"/>
+	<SubTexture name="loop0009" x="1990" y="1932" width="604" height="483" frameX="-44" frameY="-35" frameWidth="692" frameHeight="554"/>
+</TextureAtlas>

@@ -1,0 +1,68 @@
+{
+	"songs": [
+		[
+			"Chillidogs",
+			"chilli",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"Huh Neat",
+			"dorkly",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"Step Up",
+			"sanic",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"Breakfast",
+			"mpeg",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"Really 3D",
+			"sonico",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "",
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"storyName": "Your New Week",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}
