@@ -3914,6 +3914,7 @@ class PlayState extends MusicBeatState
 
 
 	public var transitioning = false;
+	var rankString:String = 'Null';
 	public function endSong():Void
 	{
 		//Should kill you if you tried to cheat
@@ -3962,13 +3963,14 @@ class PlayState extends MusicBeatState
 		#end
 
 		var ret:Dynamic = callOnLuas('onEndSong', [], false);
+		FlxG.log.add("rankString: " + rankString);
 		if(ret != FunkinLua.Function_Stop && !transitioning) {
 			if (SONG.validScore)
 			{
 				#if !switch
 				var percent:Float = ratingPercent;
 				if(Math.isNaN(percent)) percent = 0;
-				Highscore.saveScore(SONG.song, songScore, storyDifficulty, percent);
+				Highscore.saveScore(SONG.song, songScore, storyDifficulty, percent,rankString);
 				#end
 			}
 			playbackRate = 1;
