@@ -469,11 +469,16 @@ class FreeplayState extends MusicBeatState
 
 	var noShowRankButton:Bool = true;
 	var arrowPress:Bool = true;
+
+	var scoreTween:Array<FlxTween> = [null,null];
 	private function showRank(acceptButton:Bool) {
 		// diffText
 		var timeTween:Float = 0.5;
 		var spaceDiff:Int = 90;
 
+		for (i in 0...scoreTween.length) if (scoreTween[i] != null) scoreTween[i].cancel();
+			
+		
 		if (acceptButton){
 			// grpSongsText.members[curSelected].setPosition(850,50);
 
@@ -487,7 +492,7 @@ class FreeplayState extends MusicBeatState
 				diffText.text = "BY: " + songs[curSelected].songBy;
 
 				FlxTween.tween(diffText,  {alpha: 1 ,y: diffText.height + spaceDiff}, timeTween, {ease: FlxEase.circOut});
-				FlxTween.tween(scoreText, {alpha: 1 ,y: (diffText.height + spaceDiff)+100}, timeTween, {ease:FlxEase.circOut,startDelay:timeTween-0.3, onComplete: function(t:FlxTween){
+				scoreTween[0] = FlxTween.tween(scoreText, {alpha: 1 ,y: (diffText.height + spaceDiff)+100}, timeTween, {ease:FlxEase.circOut,startDelay:timeTween-0.3, onComplete: function(t:FlxTween){
 					#if !switch 
 					intendedScore = Highscore.getScore(songs[curSelected].songName, curDifficulty);
 					intendedRating = Highscore.getRating(songs[curSelected].songName, curDifficulty); #end
@@ -497,7 +502,7 @@ class FreeplayState extends MusicBeatState
 				if (rankScore == null) rankScore = 'Null';
 				rankSprite.changeRank(rankScore);
 				rankSprite.angle = 90;
-				FlxTween.tween(rankSprite, {alpha:1, angle: 0}, timeTween, {ease:FlxEase.circOut,startDelay:timeTween});
+				scoreTween[1] = FlxTween.tween(rankSprite, {alpha:1, angle: 0}, timeTween, {ease:FlxEase.circOut,startDelay:timeTween});
 			}});
 			FlxTween.tween(arrow, {alpha:0}, timeTween - 0.2);
 
