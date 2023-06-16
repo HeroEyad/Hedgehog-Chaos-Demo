@@ -119,6 +119,8 @@ class FreeplayState extends MusicBeatState
 		add(bg);
 		bg.screenCenter();
 
+		FlxG.sound.playMusic(Paths.music("freeplayMenu"));
+
 		// var blockbar:FlxSprite = new FlxSprite(bar.x + 100).makeGraphic(FlxG.width,FlxG.height,FlxColor.BLACK);
 		// blockbar.x = (FlxG.width/2)+100;
 		// // blockbar.screenCenter(X);
@@ -350,6 +352,7 @@ class FreeplayState extends MusicBeatState
 				if(colorTween != null) {
 					colorTween.cancel();
 				}
+				FlxG.sound.playMusic(Paths.music("freakyMenu"));
 				FlxG.sound.play(Paths.sound('cancelMenu'));
 				MusicBeatState.switchState(new MainMenuState());
 			} else showRank(false);
@@ -474,7 +477,7 @@ class FreeplayState extends MusicBeatState
 		if (acceptButton){
 			// grpSongsText.members[curSelected].setPosition(850,50);
 
-
+			// FlxG.sound.play(Paths.sound('confirmMenu'), 0.7);
 			arrowPress = false;
 			grpSongsText.members[curSelected].changeX = false;
 			FlxTween.tween(grpSongsText.members[curSelected], {x:850 , y: 50}, timeTween,{ease: FlxEase.circInOut,onComplete: function(t:FlxTween) {
