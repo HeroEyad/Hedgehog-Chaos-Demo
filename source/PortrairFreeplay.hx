@@ -38,6 +38,11 @@ class PortrairFreeplay extends FlxSprite
 
         var sprString:String = name.toLowerCase().replace(" ","_");
 
+        switch(sprString){
+            case 'huh_neat' | 'really_3d':
+                scl -= 0.05;
+        }
+
         if(!Paths.fileExists('images/Freeplay/portrair/' + sprString + '.png', IMAGE)) sprString = "placeholder";
 
         loadGraphic(Paths.image('Freeplay/portrair/' + sprString));
