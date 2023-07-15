@@ -1,0 +1,49 @@
+    [
+    {
+        "title": "Hedgehog Chaos Team",
+        "members": [
+            {
+                "name": "Stranger",
+                "desc": "Director, icons artist, background artist, menu desings and spritesheets",
+                "icon": "stranger",
+                "link": "https://twitter.com/thastrangeguy",
+            },
+            {
+                "name": "Merrtiz",
+                "desc": "Almost all of chillidogs sprites and animating yeth for future update",
+                "link": "https://twitter.com/Not_Merritz"
+            },
+            {
+                "name": "jabiroco18",
+                "desc": "Artist for game over, spritesheets and icons",
+                "icon": "jabi",
+                "link": "https://twitter.com/JabirugoBrabo"
+            },
+            {
+                "name": "Nait",
+                "desc": "FreePlay, credit menu and title screen",
+                "icon": "nait",
+                "link": "https://twitter.com/Nait0001"
+            },
+            {
+                "name": "JessieArtistXD",
+                "desc": "Lots of icons",
+                "icon": "weneedtocook",
+                "link": "https://twitter.com/ARandomHecker"
+            },
+            {
+                "name": "Someblox",
+                "desc": "Menu Artist, Spritesheet Artist",
+                "link": "https://twitter.com/someblox"
+            },
+            {
+                "name": "HeroEyad",
+                "desc": "Lead coder, Main menu, Credits menu and FreePlay",
+                "icon": "eydooogaming",
+                "link": "https://twitter.com/HeroEyad_"
+            }
+       
+        ]
+    },
+    
+]
