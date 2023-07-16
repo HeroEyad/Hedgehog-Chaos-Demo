@@ -2193,10 +2193,12 @@ class ChartingState extends MusicBeatState
 		var et:Float = st + (Conductor.stepCrochet * steps);
 
 		if (FlxG.save.data.chart_waveformInst) {
+			@:privateAccess
 			var sound:FlxSound = FlxG.sound.music;
+			@:privateAccess
 			if (sound._sound != null && sound._sound.__buffer != null) {
 				var bytes:Bytes = sound._sound.__buffer.data.toBytes();
-
+                @:privateAccess
 				wavData = waveformData(
 					sound._sound.__buffer,
 					bytes,
@@ -2208,7 +2210,7 @@ class ChartingState extends MusicBeatState
 				);
 			}
 		}
-
+        @:privateAccess
 		if (FlxG.save.data.chart_waveformVoices) {
 			var sound:FlxSound = vocals;
 			if (sound._sound != null && sound._sound.__buffer != null) {
