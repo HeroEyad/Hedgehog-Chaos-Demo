@@ -75,10 +75,12 @@ class TitleState extends MusicBeatState
 
 	#if TITLE_SCREEN_EASTER_EGG
 	var easterEggKeys:Array<String> = [
-		'SHADOW', 'RIVER', 'SHUBS', 'BBPANZU'
+		'SHADOW', 'RIVER', 'SHUBS', 'BBPANZU', 'ETERNAL'
 	];
 	var allowedKeys:String = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	var easterEggKeysBuffer:String = '';
+	var code1:String = "";
+	var pass1:String = "ETERNAL";
 	#end
 
 	var mustUpdate:Bool = false;
@@ -114,6 +116,55 @@ class TitleState extends MusicBeatState
 			}
 		}
 		#end*/
+
+		var code1:String = "";
+		var pass1:String = "ETERNAL";
+		
+		if (FlxG.keys.justPressed.E)
+			{
+				code1 += "E";
+				trace(code1);
+			}
+			if (FlxG.keys.justPressed.T)
+				{
+					code1 += "T";
+					trace(code1);
+				}
+			
+			if (FlxG.keys.justPressed.E)
+				{
+					code1 += "E";
+					trace(code1);
+				}
+			if (FlxG.keys.justPressed.R)
+				{
+					code1 += "R";
+					trace(code1);
+				}
+			if (FlxG.keys.justPressed.N)
+				{
+					code1 += "N";
+					trace(code1);
+				}
+			if (FlxG.keys.justPressed.A)
+				{
+					code1 += "A";
+					trace(code1);
+				}
+			if (FlxG.keys.justPressed.L)
+				{
+					code1 += "L";
+					trace(code1);
+				}
+			
+			if (code1.endsWith(pass1))
+				 {
+							trace("should be going right now PLEASE");
+							PlayState.SONG = Song.loadFromJson('eternal-sun-hard', 'eternal-sun');
+							PlayState.isStoryMode = false;
+							PlayState.storyDifficulty = 2;
+							LoadingState.loadAndSwitchState(new PlayState());  
+				 }
 
 		FlxG.game.focusLostFramerate = 60;
 		FlxG.sound.muteKeys = muteKeys;
@@ -627,7 +678,7 @@ class TitleState extends MusicBeatState
 	// 16
 	var mensage:Array<String> = [
 		"sponsor us Sega", "Plumber panic when", "What's up my fnasers", "check out sonic\nparody universe", "Pizza Power Panic", "we love snick","PENIS SUCK", "this took\na year I think",
-		"shoutout to\nthe trans people", "foc foc", "hedgehog chaos\nelectric boogaloo", "the Brazilians\ncarried the team", "hi classicsonic1929", "calling sonic.exe\nat 3 am","I LIKE MEN\n-Nati", "rat mouse",
+		"shoutout to\nthe trans people", "foc foc", "hedgehog chaos\nelectric boogaloo", "the Egyptian Coder\nLead the team", "the Brazilians\ncarried the team", "hi classicsonic1929", "EydoooGaming\nRoblox Minecraft and More", "calling sonic.exe\nat 3 am","I LIKE MEN\n-Nati", "rat mouse",
 	];
 
 	var zoomCamer:Float = 0.055;

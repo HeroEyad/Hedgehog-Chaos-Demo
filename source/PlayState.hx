@@ -2397,14 +2397,14 @@ class PlayState extends MusicBeatState
 		FlxTween.tween(timeBar, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
 		FlxTween.tween(timeTxt, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
 
-		// switch(curSong){
-		// 	case "Chillidogs": curPortrait = "chillidogs";
-		// 	case "Huh Neat": curPortrait = "huh-neat";
-		// 	case "Step Up": curPortrait = "step-it-up";
-		// 	case "Really 3D": curPortrait = "really-3d";
-		// 	case "Breakfast": curPortrait = "breakfast";
-		// 	case "SAGE": curPortrait = "sage";
-		// }
+		 switch(curSong){
+			case "Step Up": curPortrait = "step-it-up";
+			case "Breakfast": curPortrait = "breakfast";
+		 	case "Chillidogs": curPortrait = "chillidogs";
+		 	case "Huh Neat": curPortrait = "huh-neat";
+		 	case "Really 3D": curPortrait = "really-3d";
+		 	case "SAGE": curPortrait = "sage";
+		 }
 
 		switch(curStage)
 		{

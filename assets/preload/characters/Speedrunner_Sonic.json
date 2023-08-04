@@ -1,84 +1,84 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				40,
 				-284
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "sonic idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "sonic idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				50,
 				-280
 			],
-			"anim": "chilidogs",
+			"loop": false,
 			"fps": 24,
-			"name": "sonic chilli dog",
-			"indices": []
+			"anim": "chilidogs",
+			"indices": [],
+			"name": "sonic chilli dog"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				57,
 				-301
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "sonic left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "sonic left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-35,
 				-283
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "sonic up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "sonic up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				50,
 				-280
 			],
-			"anim": "singUP-alt",
+			"loop": false,
 			"fps": 24,
-			"name": "sonic chilli dog",
-			"indices": []
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "sonic chilli dog"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-30,
 				-349
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "sonic down"
+			"fps": 24,
+			"name": "sonic down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				48,
 				-479
 			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "sonic right",
 			"indices": [
 				0,
 				1
-			],
-			"fps": 24,
-			"anim": "singRIGHT",
-			"loop": false,
-			"name": "sonic right"
+			]
 		}
 	],
 	"no_antialiasing": false,
@@ -87,7 +87,7 @@
 		40,
 		80
 	],
-	"healthicon": "speedrunner_sonic",
+	"healthicon": "chilli",
 	"flip_x": false,
 	"healthbar_colors": [
 		37,

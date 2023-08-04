@@ -1,785 +1,791 @@
 [
-    {
-      "title": "Artists + 3D Modelers",
-      "members": [
-        {
-          "name": "thastrangerguy",
-          "icon": "stranger",
-          "desc": "Director, icons, background artist, menu designs, and spritesheets",
-          "link": "https://twitter.com/thastrangeguy"
-        },
-        {
-          "name": "Merritz",
-          "icon": "Merritz",
-          "desc": "Created almost all of chillidogs sprites and animated yeti for future updates",
-          "link": "https://twitter.com/Not_Merritz"
-        },
-        {
-          "name": "jabiroco18",
-          "icon": "jabi",
-          "desc": "Artist for game over, spritesheets, and icons",
-          "link": "https://twitter.com/JabirugoBrabo2"
-        },
-        {
-          "name": "Salmonperson.jpg",
-          "icon": "placehold",
-          "desc": "Icon artist, sprite sheet artist, and menu art",
-          "link": "https://twitter.com/SalmonPersonjpg  "
-        },
-        {
-          "name": "Jesseartistxd",
-          "icon": "placehold",
-          "desc": "Created lots of icons",
-          "link": "https://twitter.com/ARandomHecker"
-        },
-        {
-          "name": "Someblox",
-          "icon": "sb",
-          "desc": "Menu artist and spritesheet artist",
-          "link": "https://twitter.com/someblox"
-        },
-        {
-          "name": "JKBowden",
-          "icon": "jaykay",
-          "desc": "Spritesheets artist and 3D Modeler",
-          "link": "https://www.youtube.com/channel/UCWQmaOB-Ub_O8sliw-scqEg"
-        },
-        {
-          "name": "Somedumbuser137",
-          "icon": "somedumbuser",
-          "desc": "Sprite artist (nightshift song)",
-          "link": "https://twitter.com/SomeDumbUser137"
-        },
-        {
-          "name": "Hxtred",
-          "icon": "Hxtred",
-          "desc": "Pixel artist mainly for the barrel song, made xmls",
-          "link": "https://twitter.com/Angelo08A"
-        },
-        {
-          "name": "Brayden023",
-          "icon": "Brayden",
-          "desc": "Pixel artist for intro cutscene (updates)",
-          "link": "https://twitter.com/NGForSmash"
-        },
-        {
-          "name": "british_x",
-          "icon": "britishfr",
-          "desc": "Spritesheet artist and menu art",
-          "link": "https://www.youtube.com/@invertedfreddo1144"
-        },
-        {
-          "name": "A trash artist",
-          "icon": "ata",
-          "desc": "Menu art and spritesheets",
-          "link": "https://twitter.com/ATrashArtist1"
-        }
+  {
+    "title": "Artists + 3D Modelers",
+    "members": [
+      {
+        "name": "thastrangerguy",
+        "icon": "stranger",
+        "desc": "Director, icons, background artist, menu designs, and spritesheets",
+        "link": "https://twitter.com/thastrangeguy"
+      },
+      {
+        "name": "Merritz",
+        "icon": "Merritz",
+        "desc": "Created almost all of chillidogs sprites and animated yeti for future updates",
+        "link": "https://twitter.com/Not_Merritz"
+      },
+      {
+        "name": "jabiroco18",
+        "icon": "jabi",
+        "desc": "Artist for game over, spritesheets, and icons",
+        "link": "https://twitter.com/JabirugoBrabo2"
+      },
+      {
+        "name": "Salmonperson.jpg",
+        "icon": "placehold",
+        "desc": "Icon artist, sprite sheet artist, and menu art",
+        "link": "https://twitter.com/SalmonPersonjpg  "
+      },
+      {
+        "name": "Jesseartistxd",
+        "icon": "placehold",
+        "desc": "Created lots of icons",
+        "link": "https://twitter.com/ARandomHecker"
+      },
+      {
+        "name": "Someblox",
+        "icon": "sb",
+        "desc": "Menu artist and spritesheet artist",
+        "link": "https://twitter.com/someblox"
+      },
+      {
+        "name": "JKBowden",
+        "icon": "jaykay",
+        "desc": "Spritesheets artist and 3D Modeler",
+        "link": "https://www.youtube.com/channel/UCWQmaOB-Ub_O8sliw-scqEg"
+      },
+      {
+        "name": "Somedumbuser137",
+        "icon": "somedumbuser",
+        "desc": "Sprite artist (nightshift song)",
+        "link": "https://twitter.com/SomeDumbUser137"
+      },
+      {
+        "name": "Hxtred",
+        "icon": "Hxtred",
+        "desc": "Pixel artist mainly for the barrel song, made xmls",
+        "link": "https://twitter.com/Angelo08A"
+      },
+      {
+        "name": "Brayden023",
+        "icon": "Brayden",
+        "desc": "Pixel artist for intro cutscene (updates)",
+        "link": "https://twitter.com/NGForSmash"
+      },
+      {
+        "name": "british_x",
+        "icon": "britishfr",
+        "desc": "Spritesheet artist and menu art",
+        "link": "https://www.youtube.com/@invertedfreddo1144"
+      },
+      {
+        "name": "A trash artist",
+        "icon": "ata",
+        "desc": "Menu art and spritesheets",
+        "link": "https://twitter.com/ATrashArtist1"
+      }
+  ]
+},
+{
+          "title": "Artists + 3D Modelers Page 2",
+          "members": [
+      {
+        "name": "Tailsfangut2",
+        "icon": "tailsfangut",
+        "desc": "Menu art and concept artist",
+        "link": "https://youtube.com/@tailsfangut2joemama"
+      },
+      {
+        "name": "B-skyller",
+        "icon": "b-skyller",
+        "desc": "Spritesheet artist, menu art, and musician",
+        "link": "https://twitter.com/Stell_0dy"
+      },
+      {
+        "name": "Jawbone",
+        "icon": "Jawbone",
+        "desc": "Spritesheet art and menu art",
+        "link": "https://twitter.com/jawbonewastaken"
+      },
+      {
+        "name": "The Awesome",
+        "icon": "fr",
+        "desc": "Spritesheet artist and concept artist",
+        "link": "https://twitter.com/the_awesome0442"
+      },
+      {
+        "name": "Flipethebased",
+        "icon": "flipethebased",
+        "desc": "Artist for future updates",
+        "link": "https://twitter.com/FlipeTheBased"
+      },
+      {
+        "name": "soap_shoe",
+        "icon": "Soap_shoe",
+        "desc": "Responsible for everything related to Sunky",
+        "link": "https://https://twitter.com/soap__shoe"
+      },
+      {
+        "name": "Jbendett",
+        "icon": "Jbendett",
+        "desc": "Concept artist",
+        "link": "https://twitter.com/JBendett"
+      },
+      {
+        "name": "Maddie",
+        "icon": "maddie",
+        "desc": "Menu art and spritesheet artist",
+        "link": "https://twitter.com/MaddshuraSRB2"
+      },
+      {
+        "name": "Imnotsonic",
+        "icon": "placehold",
+        "desc": "Pixel artist for Snick (demo), also a general pixel artist",
+        "link": "https://twitter.com/Imnotsonic1"
+      },
+      {
+        "name": "wabit",
+        "icon": "placehold",
+        "desc": "Menu art",
+        "link": "https://https://twitter.com/Brainless_Wabit"
+      },
+      {
+        "name": "Ferno",
+        "icon": "Ferno",
+        "desc": "Menu art and pixel artist",
+        "link": "https://twitter.com/fedecrack0123"
+      },
+      {
+        "name": "Regular plush",
+        "icon": "regular",
+        "desc": "Concept artist",
+        "link": "https://twitter.com/GeorgeC94446063"
+      }
+  ]
+},
+{
+  "title": "Artists + 3D Modelers Page 3",
+  "members": [
+      {
+        "name": "M.T.O.V",
+        "icon": "M.T.O.V",
+        "desc": "Pixel artist who helped animate Dorkly Sonic and Dorkly Tails",
+        "link": "https://twitter.com/mrsusguyaguy1"
+      },
+      {
+        "name": "YZ10",
+        "icon": "YZ10",
+        "desc": "Responsible for everything related to Really 3D, Sage ranks",
+        "link": "https://twitter.com/FnfYz10"
+      },
+      {
+        "name": "Mele",
+        "icon": "Mele",
+        "desc": "HUD artist and pixel artist",
+        "link": "https://twitter.com/gordo_mele"
+      },
+      {
+        "name": "stick_pi",
+        "icon": "stick_pi",
+        "desc": "Menu art and concept artist",
+        "link": "https://twitter.com/stick_pi"
+      },
+      {
+        "name": "MS.Malhare",
+        "icon": "ms.malhare",
+        "desc": "3D artist for future updates",
+        "link": "https://twitter.com/Ms_Malhare"
+      },
+      {
+        "name": "MR.Penguin",
+        "icon": "mrpenguin",
+        "desc": "Pixel artist for future updates",
+        "link": "https://twitter.com/IceyPenguin3"
+      },
+      {
+        "name": "Ema",
+        "icon": "ema",
+        "desc": "Artist, animator, concept artist for Snick",
+        "link": "https://twitter.com/EmaClay3"
+      },
+      {
+        "name": "drowsys",
+        "icon": "drowsys",
+        "desc": "Contributed to almost everything for Sage",
+        "link": "https://twitter.com/DrowsysTwT"
+      },
+      {
+        "name": "Dayron",
+        "icon": "dayron",
+        "desc": "Icon artist",
+        "link": "https://twitter.com/Dayron100pre"
+      },
+      {
+        "name": "Animanjmanyem",
+        "icon": "animanjmanyem",
+        "desc": "Animated Sanic cutscene",
+        "link": "https://twitter.com/AnimverseReal"
+      },
+      {
+        "name": "KaneSucks",
+        "icon": "placehold",
+        "desc": "Menu artist",
+        "link": "https://twitter.com/WalkingKanelol"
+      },
+      {
+        "name": "HKR",
+        "icon": "hkr",
+        "desc": "Artist and animator",
+        "link": "https://twitter.com/Sxg2Y"
+      }
+  ]
+},
+{
+  "title": "Artists + 3D Modelers Page 4",
+  "members": [
+      {
+        "name": "John9Doe",
+        "icon": "john",
+        "desc": "Menu art and 3D modeler",
+        "link": "https://twitter.com/Pr1nter3"
+      },
+      {
+        "name": "Billy",
+        "icon": "billy",
+        "desc": "Snick.exe artist, pixel and normal artist",
+        "link": ""
+      },
+      {
+        "name": "blanonboii",
+        "icon": "blanonboii",
+        "desc": "Background artist, created some xmls",
+        "link": "https://twitter.com/Wojtek13058269"
+      },
+      {
+        "name": "meytach",
+        "icon": "meytach",
+        "desc": "Pixel artist and background artist",
+        "link": "https://twitter.com/MeytachZ"
+      },
+      {
+        "name": "CrackerSnaps",
+        "icon": "crackersnaps",
+        "desc": "Background artist",
+        "link": "https://twitter.com/CrackerSnapDev"
+      },
+      {
+        "name": "Supahsta",
+        "icon": "supahsta",
+        "desc": "Pixel artist for future updates",
+        "link": "https://twitter.com/Mari0haraZONE"
+      },
+      {
+        "name": "Yosibu",
+        "icon": "Yosibu",
+        "desc": "HUD artist, icon artist, and charter",
+        "link": "https://twitter.com/PalkVerse"
+      },
+      {
+        "name": "Jesus Viloria",
+        "icon": "viloria",
+        "desc": "Menu artist",
+        "link": "https://twitter.com/OficialViloria"
+      },
+      {
+        "name": "arvarin",
+        "icon": "arvarin",
+        "desc": "Concept artist and musician",
+        "link": "https://twitter.com/arvarin_"
+      },
+      {
+        "name": "Sonic.Xills",
+        "icon": "sonic.xills",
+        "desc": "Artist for future updates for the mod",
+        "link": ""
+      },
+      {
+        "name": "MilesSSC",
+        "icon": "miles",
+        "desc": "Concept artist",
+        "link": "https://www.youtube.com/channel/UCQr_xjtHEBHs7IbdHROyXOQ"
+      }
     ]
   },
   {
-            "title": "Artists + 3D Modelers Page 2",
-            "members": [
-        {
-          "name": "Tailsfangut2",
-          "icon": "tailsfangut",
-          "desc": "Menu art and concept artist",
-          "link": "https://youtube.com/@tailsfangut2joemama"
-        },
-        {
-          "name": "B-skyller",
-          "icon": "b-skyller",
-          "desc": "Spritesheet artist, menu art, and musician",
-          "link": "https://twitter.com/Stell_0dy"
-        },
-        {
-          "name": "Jawbone",
-          "icon": "Jawbone",
-          "desc": "Spritesheet art and menu art",
-          "link": "https://twitter.com/jawbonewastaken"
-        },
-        {
-          "name": "The Awesome",
-          "icon": "fr",
-          "desc": "Spritesheet artist and concept artist",
-          "link": "https://twitter.com/the_awesome0442"
-        },
-        {
-          "name": "Flipethebased",
-          "icon": "flipethebased",
-          "desc": "Artist for future updates",
-          "link": "https://twitter.com/FlipeTheBased"
-        },
-        {
-          "name": "soap_shoe",
-          "icon": "Soap_shoe",
-          "desc": "Responsible for everything related to Sunky",
-          "link": "https://https://twitter.com/soap__shoe"
-        },
-        {
-          "name": "Jbendett",
-          "icon": "Jbendett",
-          "desc": "Concept artist",
-          "link": "https://twitter.com/JBendett"
-        },
-        {
-          "name": "Maddie",
-          "icon": "maddie",
-          "desc": "Menu art and spritesheet artist",
-          "link": "https://twitter.com/MaddshuraSRB2"
-        },
-        {
-          "name": "Imnotsonic",
-          "icon": "placehold",
-          "desc": "Pixel artist for Snick (demo), also a general pixel artist",
-          "link": "https://twitter.com/Imnotsonic1"
-        },
-        {
-          "name": "wabit",
-          "icon": "placehold",
-          "desc": "Menu art",
-          "link": "https://https://twitter.com/Brainless_Wabit"
-        },
-        {
-          "name": "Ferno",
-          "icon": "Ferno",
-          "desc": "Menu art and pixel artist",
-          "link": "https://twitter.com/fedecrack0123"
-        },
-        {
-          "name": "Regular plush",
-          "icon": "regular",
-          "desc": "Concept artist",
-          "link": "https://twitter.com/GeorgeC94446063"
-        }
-    ]
-},
-{
-    "title": "Artists + 3D Modelers Page 3",
+    "title": "Animators",
     "members": [
-        {
-          "name": "M.T.O.V",
-          "icon": "M.T.O.V",
-          "desc": "Pixel artist who helped animate Dorkly Sonic and Dorkly Tails",
-          "link": "https://twitter.com/mrsusguyaguy1"
-        },
-        {
-          "name": "YZ10",
-          "icon": "YZ10",
-          "desc": "Responsible for everything related to Really 3D, Sage ranks",
-          "link": "https://twitter.com/FnfYz10"
-        },
-        {
-          "name": "Mele",
-          "icon": "Mele",
-          "desc": "HUD artist and pixel artist",
-          "link": "https://twitter.com/gordo_mele"
-        },
-        {
-          "name": "stick_pi",
-          "icon": "stick_pi",
-          "desc": "Menu art and concept artist",
-          "link": "https://twitter.com/stick_pi"
-        },
-        {
-          "name": "MS.Malhare",
-          "icon": "ms.malhare",
-          "desc": "3D artist for future updates",
-          "link": "https://twitter.com/Ms_Malhare"
-        },
-        {
-          "name": "MR.Penguin",
-          "icon": "mrpenguin",
-          "desc": "Pixel artist for future updates",
-          "link": "https://twitter.com/IceyPenguin3"
-        },
-        {
-          "name": "Ema",
-          "icon": "ema",
-          "desc": "Artist, animator, concept artist for Snick",
-          "link": "https://twitter.com/EmaClay3"
-        },
-        {
-          "name": "drowsys",
-          "icon": "drowsys",
-          "desc": "Contributed to almost everything for Sage",
-          "link": "https://twitter.com/DrowsysTwT"
-        },
-        {
-          "name": "Dayron",
-          "icon": "dayron",
-          "desc": "Icon artist",
-          "link": "https://twitter.com/Dayron100pre"
-        },
-        {
-          "name": "Animanjmanyem",
-          "icon": "animanjmanyem",
-          "desc": "Animated Sanic cutscene",
-          "link": "https://twitter.com/AnimverseReal"
-        },
-        {
-          "name": "KaneSucks",
-          "icon": "placehold",
-          "desc": "Menu artist",
-          "link": "https://twitter.com/WalkingKanelol"
-        },
-        {
-          "name": "HKR",
-          "icon": "hkr",
-          "desc": "Artist and animator",
-          "link": "https://twitter.com/Sxg2Y"
-        }
+      {
+        "name": "Gabe",
+        "icon": "Gabe",
+        "desc": "Co-director, animated almost everything",
+        "link": "https://twitter.com/gabe5003"
+      },
+      {
+        "name": "Alegrai",
+        "icon": "Alegrai",
+        "desc": "Animator and musician",
+        "link": "https://twitter.com/Alegrai2"
+      },
+      {
+        "name": "Ruby",
+        "icon": "Ruby_",
+        "desc": "Animator for future updates",
+        "link": "https://twitter.com/ruby151106"
+      },
+      {
+        "name": "Pudim Abestado",
+        "icon": "pudim",
+        "desc": "Artist and animator",
+        "link": "https://twitter.com/PudimAbestado"
+      }
     ]
-},
-{
-    "title": "Artists + 3D Modelers Page 4",
+  },
+  {
+    "title": "Coders",
     "members": [
-        {
-          "name": "John9Doe",
-          "icon": "john",
-          "desc": "Menu art and 3D modeler",
-          "link": "https://twitter.com/Pr1nter3"
-        },
-        {
-          "name": "Billy",
-          "icon": "billy",
-          "desc": "Snick.exe artist, pixel and normal artist",
-          "link": ""
-        },
-        {
-          "name": "blanonboii",
-          "icon": "blanonboii",
-          "desc": "Background artist, created some xmls",
-          "link": "https://twitter.com/Wojtek13058269"
-        },
-        {
-          "name": "meytach",
-          "icon": "meytach",
-          "desc": "Pixel artist and background artist",
-          "link": "https://twitter.com/MeytachZ"
-        },
-        {
-          "name": "CrackerSnaps",
-          "icon": "crackersnaps",
-          "desc": "Background artist",
-          "link": "https://twitter.com/CrackerSnapDev"
-        },
-        {
-          "name": "Supahsta",
-          "icon": "supahsta",
-          "desc": "Pixel artist for future updates",
-          "link": "https://twitter.com/Mari0haraZONE"
-        },
-        {
-          "name": "Yosibu",
-          "icon": "Yosibu",
-          "desc": "HUD artist, icon artist, and charter",
-          "link": "https://twitter.com/PalkVerse"
-        },
-        {
-          "name": "Jesus Viloria",
-          "icon": "viloria",
-          "desc": "Menu artist",
-          "link": "https://twitter.com/OficialViloria"
-        },
-        {
-          "name": "arvarin",
-          "icon": "arvarin",
-          "desc": "Concept artist and musician",
-          "link": "https://twitter.com/arvarin_"
-        },
-        {
-          "name": "Sonic.Xills",
-          "icon": "sonic.xills",
-          "desc": "Artist for future updates for the mod",
-          "link": ""
-        },
-        {
-          "name": "MilesSSC",
-          "icon": "miles",
-          "desc": "Concept artist",
-          "link": "https://www.youtube.com/channel/UCQr_xjtHEBHs7IbdHROyXOQ"
-        }
-      ]
-    },
-    {
-      "title": "Animators",
+      {
+        "name": "HeroEyad",
+        "icon": "eyad",
+        "desc": "Lead coder, Main menu, Gallery, Credits menu, and FreePlay",
+        "link": "https://twitter.com/HeroEyad_"
+      },
+      {
+        "name": "Nait",
+        "icon": "Nait",
+        "desc": "FreePlay, credit menu, title screen",
+        "link": "https://twitter.com/Nait0001"
+      },
+      {
+        "name": "Michelle",
+        "icon": "Michelle",
+        "desc": "Co-director, menu layout (FreePlay)",
+        "link": "https://twitter.com/MichellePVZ"
+      },
+      {
+        "name": "FireMaster01984",
+        "icon": "sofire",
+        "desc": "Support Coder in Gallery and Credits",
+        "link": "https://twitter.com/Firemaster01984"
+      },
+      {
+        "name": "BigBoss",
+        "icon": "placehold",
+        "desc": "Pause menu (for now)",
+        "link": "https://twitter.com/TheBigBoss050"
+      },
+      {
+        "name": "T-Bar",
+        "icon": "T-bar",
+        "desc": "HUD, sage title card, titlecard",
+        "link": "https://twitter.com/tbar27862"
+      },
+      {
+        "name": "DuduGD",
+        "icon": "DuduGD2023",
+        "desc": "Results screen",
+        "link": "https://twitter.com/DuduGD2023"
+      },
+      {
+        "name": "SupersonicAlbert",
+        "icon": "SupersonicAlbert",
+        "desc": "Discord integration",
+        "link": "https://twitter.com/SuperSonicAl64"
+      },
+      {
+        "name": "Kapsfox",
+        "icon": "Kapsfox",
+        "desc": "Upcoming menus",
+        "link": "https://www.youtube.com/channel/UCyWDty00-PIXSStbgdOWVJQ"
+      }
+    ]
+  },
+  {
+    "title": "Charters",
+    "members": [
+      {
+        "name": "Golden",
+        "icon": "golden",
+        "desc": "Lead charter, charted Sage",
+        "link": "https://twitter.com/GoldennightX"
+      },
+      {
+        "name": "Sherbet",
+        "icon": "sherbet",
+        "desc": "Charter for Huh Neat",
+        "link": "https://twitter.com/soulles_sord"
+      },
+      {
+        "name": "Gabe",
+        "icon": "gabe",
+        "desc": "Charter for Chillidogs",
+        "link": "https://twitter.com/gabe5003"
+      },
+      {
+        "name": "T-bar",
+        "icon": "t-bar",
+        "desc": "Charter for future updates",
+        "link": "https://twitter.com/tbar27862"
+      },
+      {
+        "name": "Kapsfox",
+        "icon": "kapsfox",
+        "desc": "Charter for future updates",
+        "link": "https://www.youtube.com/channel/UCyWDty00-PIXSStbgdOWVJQ"
+      },
+      {
+        "name": "Timson",
+        "icon": "timson",
+        "desc": "Charter for Old Really 3D",
+        "link": "https://twitter.com/Timson3037"
+      },
+      {
+        "name": "Synthetic",
+        "icon": "synthetic",
+        "desc": "Charter for Really 3D",
+        "link": "https://twitter.com/SynthetiC4P"
+      },
+      {
+        "name": "Kev",
+        "icon": "kev",
+        "desc": "Charter for future updates",
+        "link": "https://youtube.com/@kevenkaioo4656"
+      },
+      {
+        "name": "Waffle",
+        "icon": "waffle",
+        "desc": "Charter for Step Up",
+        "link": "https://twitter.com/Wafflehehehaha"
+      },
+      {
+        "name": "Danielodimension",
+        "icon": "danielodimension",
+        "desc": "Charter for future updates",
+        "link": "https://twitter.com/DrDanielo2 "
+      },
+      {
+        "name": "nightmarexonix",
+        "icon": "nightmarexonix",
+        "desc": "Charter for Breakfast",
+        "link": "https://twitter.com/NPirateSonic"
+      },
+      {
+        "name": "Dudugd",
+        "icon": "dudugd",
+        "desc": "Charter for future updates",
+        "link": "https://twitter.com/DuduGD2023 "
+      }
+    ]
+  },
+  {
+    "title": "Musicians",
+    "members": [
+      {
+        "name": "DonaldRaps",
+        "icon": "Donaldraps",
+        "desc": "Musician of Really 3D",
+        "link": "https://twitter.com/Offical620"
+      },
+      {
+        "name": "Neodoesmoosic",
+        "icon": "Neodoesmoosic_",
+        "desc": "Musician of Huh Neat, Pause menu, and Chillidogs",
+        "link": "https://twitter.com/neodoesismusic"
+      },
+      {
+        "name": "Crie",
+        "icon": "Crie",
+        "desc": "Musician of the Options song",
+        "link": "https://twitter.com/Carie7987"
+      },
+      {
+        "name": "Bruno",
+        "icon": "Bruno",
+        "desc": "Musician for Sage",
+        "link": "https://twitter.com/FrenchPPashn_Nz"
+      },
+      {
+        "name": "Sherbet",
+        "icon": "sherbet",
+        "desc": "Musician for future updates",
+        "link": "https://twitter.com/soulles_sord"
+      },
+      {
+        "name": "River",
+        "icon": "river",
+        "desc": "Contributed to Sage",
+        "link": "https://twitter.com/River_347"
+      },
+      {
+        "name": "Flashmighty",
+        "icon": "flashmighty",
+        "desc": "Composer for future updates",
+        "link": "https://twitter.com/FlashMightyGam2"
+      },
+      {
+        "name": "Anonymously_present",
+        "icon": "anonymously_present",
+        "desc": "Musician for FreePlay",
+        "link": "https://twitter.com/ThatGuyWhoDoes4"
+      },
+      {
+        "name": "Thefungang",
+        "icon": "thefungang",
+        "desc": "Musician for future updates",
+        "link": "https://twitter.com/Thefungang123"
+      },
+      {
+        "name": "Ratso",
+        "icon": "ratso",
+        "desc": "Musician for future updates",
+        "link": "https://twitter.com/TargetSausage"
+      },
+      {
+        "name": "Skullybou",
+        "icon": "skullybou",
+        "desc": "Musician of Breakfast and Credits menu",
+        "link": ""
+      },
+      {
+        "name": "Dupe",
+        "icon": "dupe",
+        "desc": "Musician of the title screen song",
+        "link": "https://twitter.com/Duplep0ster"
+      },
+      {
+        "name": "Danielodimension",
+        "icon": "danielodimension",
+        "desc": "Musician for future updates",
+        "link": "https://twitter.com/DrDanielo2"
+      },
+      {
+        "name": "Justshxdowlel",
+        "icon": "justshxdowlel",
+        "desc": "Musician for future updates (working on 3 WIP songs)",
+        "link": "https://twitter.com/shxdowH3dgeh0ga"
+      }
+    ]
+  },
+  {
+    "title": "Voice Actors",
+    "members": [
+      {
+        "name": "Waffle",
+        "icon": "waffle",
+        "desc": "Voice actor for a future update",
+        "link": "https://twitter.com/Wafflehehehaha"
+      },
+      {
+        "name": "Enderprime",
+        "icon": "enderman",
+        "desc": "Voice actor for Sonic and other versions of him",
+        "link": "https://twitter.com/EnderVa67"
+      },
+      {
+        "name": "Rusbe",
+        "icon": "placehold",
+        "desc": "Voice actor for the Brazilian Sonic translator",
+        "link": "https://twitter.com/rusbemetalgelad"
+      },
+      {
+        "name": "Jemart Martinez",
+        "icon": "jm",
+        "desc": "Voice actor for Tails and backup Sonic voice actor",
+        "link": "https://twitter.com/jordamartinez3?t=ADIp1rMiMRDec853w1P29Q&s=09"
+      },
+      {
+        "name": "Shagster",
+        "icon": "shagster",
+        "desc": "Voice actor for upcoming characters",
+        "link": "https://twitter.com/ShagGoated"
+      }
+    ]
+  },
+  {
+    "title": "Chromatic Scalers",
+    "members": [
+      {
+        "name": "Zuri_16",
+        "icon": "zuri",
+        "desc": "Chromatic scaler for future updates",
+        "link": "https://twitter.com/BitsZuri16"
+      },
+      {
+        "name": "Sherbet",
+        "icon": "sherbet",
+        "desc": "Chromatic scaler for Chillidogs",
+        "link": "https://twitter.com/soulles_sord"
+      },
+      {
+        "name": "Alegrai",
+        "icon": "alegrai",
+        "desc": "Chromatic scaler for future updates",
+        "link": "https://twitter.com/Alegrai2"
+      },
+      {
+        "name": "Shagster",
+        "icon": "shagster",
+        "desc": "Chromatic scaler for future updates",
+        "link": "https://twitter.com/ShagGoated"
+      },
+      {
+        "name": "Anonymously_present",
+        "icon": "anonymously_present",
+        "desc": "Chromatic scaler for Sonico",
+        "link": "https://twitter.com/ThatGuyWhoDoes4"
+      }
+    ]
+  },
+  {
+    "title": "Video Editor",
+    "members": [
+      {
+        "name": "Cosmo",
+        "icon": "cosmo",
+        "desc": "Edited the trailer for the Inferno Direct",
+        "link": "https://twitter.com/CleanCosmos"
+      },
+      {
+        "name": "Miles",
+        "icon": "miles",
+        "desc": "Edited the trailer for Sonic Funkin' Central (upcoming)",
+        "link": "https://www.youtube.com/channel/UCQr_xjtHEBHs7IbdHROyXOQ"
+      }
+    ]
+  },
+  {
+    "title": "Special Thanks",
+    "members": [
+      {
+        "name": "SMJ",
+        "icon": "smh",
+        "desc": "Coded the backgrounds",
+        "link": "https://twitter.com/SMJ0fficial"
+      },
+      {
+          "name": "GamerPablito",
+          "icon": "pablito",
+          "desc": "Helped Hero with The Credits",
+          "link": "https://twitter.com/GamerPablito1"
+      },
+      {
+        "name": "Fuzzysauce",
+        "icon": "fuzzysauce",
+        "desc": "Made the Snick, Snick.exe, and Chef BF icons",
+        "link": "https://twitter.com/henrynoteteled"
+      },
+      {
+        "name": "Vannisaturn",
+        "icon": "vannisaturn",
+        "desc": "Contributed loading screen, executable image, and BF design",
+        "link": ""
+      },
+      {
+        "name": "Lucky",
+        "icon": "lucky",
+        "desc": "Provided sprites for future updates",
+        "link": "https://twitter.com/Iam3rdTimeLucky"
+      },
+      {
+        "name": "The Chipu",
+        "icon": "chipu",
+        "desc": "Converted the Sonico chromatic into a dwp for Donald",
+        "link": "https://twitter.com/The_Chipu"
+      },
+      {
+       
+
+ "name": "Epoli",
+        "icon": "epoli",
+        "desc": "Provided permission to use the Huh Neat BF from the Dorkly mod",
+        "link": "https://www.youtube.com/@epoli7423"
+      }
+    ]
+  },
+  {
+      "title": "Psych Engine Team",
       "members": [
-        {
-          "name": "Gabe",
-          "icon": "Gabe",
-          "desc": "Co-director, animated almost everything",
-          "link": "https://twitter.com/gabe5003"
-        },
-        {
-          "name": "Alegrai",
-          "icon": "Alegrai",
-          "desc": "Animator and musician",
-          "link": "https://twitter.com/Alegrai2"
-        },
-        {
-          "name": "Ruby",
-          "icon": "Ruby_",
-          "desc": "Animator for future updates",
-          "link": "https://twitter.com/ruby151106"
-        },
-        {
-          "name": "Pudim Abestado",
-          "icon": "pudim",
-          "desc": "Artist and animator",
-          "link": "https://twitter.com/PudimAbestado"
-        }
+          {
+              "name": "ShadowMario",
+              "desc": "Main Programmer of Psych Engine",
+              "link": "https://twitter.com/Shadow_Mario_"
+          },
+          {
+              "name": "RiverOaken",
+              "icon": "river",
+              "desc": "Main Artist/Animator of Psych Engine",
+              "link": "https://twitter.com/riverennn"
+          },
+          {
+              "name": "shubs",
+              "desc": "Additional Programmer of Psych Engine",
+              "link": "https://twitter.com/yoshubs"
+          }
       ]
-    },
-    {
-      "title": "Coders",
+  },
+  {
+      "title": "Engine Contributors",
       "members": [
-        {
-          "name": "HeroEyad",
-          "icon": "eyad",
-          "desc": "Lead coder, Main menu, Credits menu, and FreePlay",
-          "link": "https://twitter.com/HeroEyad_"
-        },
-        {
-          "name": "Nait",
-          "icon": "Nait",
-          "desc": "FreePlay, credit menu, title screen",
-          "link": "https://twitter.com/Nait0001"
-        },
-        {
-          "name": "Michelle",
-          "icon": "Michelle",
-          "desc": "Co-director, menu layout (FreePlay)",
-          "link": "https://twitter.com/MichellePVZ"
-        },
-        {
-          "name": "BigBoss",
-          "icon": "placehold",
-          "desc": "Pause menu (for now)",
-          "link": "https://twitter.com/TheBigBoss050"
-        },
-        {
-          "name": "T-Bar",
-          "icon": "T-bar",
-          "desc": "HUD, sage title card, titlecard",
-          "link": "https://twitter.com/tbar27862"
-        },
-        {
-          "name": "DuduGD",
-          "icon": "DuduGD2023",
-          "desc": "Results screen",
-          "link": "https://twitter.com/DuduGD2023"
-        },
-        {
-          "name": "SupersonicAlbert",
-          "icon": "SupersonicAlbert",
-          "desc": "Discord integration",
-          "link": "https://twitter.com/SuperSonicAl64"
-        },
-        {
-          "name": "Kapsfox",
-          "icon": "Kapsfox",
-          "desc": "Upcoming menus",
-          "link": "https://www.youtube.com/channel/UCyWDty00-PIXSStbgdOWVJQ"
-        }
+          {
+              "name": "bbpanzu",
+              "icon": "bb",
+              "desc": "Ex-Programmer of Psych Engine",
+              "link": "https://twitter.com/bbsub3"
+          },
+          {
+              "name": "iFlicky",
+              "icon": "flicky",
+              "desc": "Composer of \"Psync\" and \"Tea Time\" and Dialogue SFX",
+              "link": "https://twitter.com/flicky_i"
+          },
+          {
+              "name": "SqirraRNG",
+              "icon": "sqirra",
+              "desc": "Crash Handler and Base Code for Chart Editor's Waveform",
+              "link": "https://twitter.com/gedehari"
+          },
+          {
+              "name": "PolybiusProxy",
+              "icon": "proxy",
+              "desc": "Video Format Loader Library (hxCodec)",
+              "link": "https://twitter.com/polybiusproxy"
+          },
+          {
+              "name": "KadeDev",
+              "icon": "kade",
+              "desc": "Fixed some cool stuff on Chart Editor and other PRs",
+              "link": "https://twitter.com/kade0912"
+          },
+          {
+              "name": "Keoiki",
+              "desc": "Note Splash Animations",
+              "link": "https://twitter.com/Keoiki_"
+          },
+          {
+              "name": "NebulaZorua",
+              "icon": "nebula",
+              "desc": "LUA JIT Fork and some Lua reworks",
+              "link": "https://twitter.com/Nebula_Zorua"
+          },
+          {
+              "name": "Smokey",
+              "desc": "Sprite Atlas Support",
+              "link": "https://twitter.com/Smokey_5_"
+          }
       ]
-    },
-    {
-      "title": "Charters",
+  },
+  {
+      "title": "Funkin' Crew",
       "members": [
-        {
-          "name": "Golden",
-          "icon": "golden",
-          "desc": "Lead charter, charted Sage",
-          "link": "https://twitter.com/GoldennightX"
-        },
-        {
-          "name": "Sherbet",
-          "icon": "sherbet",
-          "desc": "Charter for Huh Neat",
-          "link": "https://twitter.com/soulles_sord"
-        },
-        {
-          "name": "Gabe",
-          "icon": "gabe",
-          "desc": "Charter for Chillidogs",
-          "link": "https://twitter.com/gabe5003"
-        },
-        {
-          "name": "T-bar",
-          "icon": "t-bar",
-          "desc": "Charter for future updates",
-          "link": "https://twitter.com/tbar27862"
-        },
-        {
-          "name": "Kapsfox",
-          "icon": "kapsfox",
-          "desc": "Charter for future updates",
-          "link": "https://www.youtube.com/channel/UCyWDty00-PIXSStbgdOWVJQ"
-        },
-        {
-          "name": "Timson",
-          "icon": "timson",
-          "desc": "Charter for Old Really 3D",
-          "link": "https://twitter.com/Timson3037"
-        },
-        {
-          "name": "Synthetic",
-          "icon": "synthetic",
-          "desc": "Charter for Really 3D",
-          "link": "https://twitter.com/SynthetiC4P"
-        },
-        {
-          "name": "Kev",
-          "icon": "kev",
-          "desc": "Charter for future updates",
-          "link": "https://youtube.com/@kevenkaioo4656"
-        },
-        {
-          "name": "Waffle",
-          "icon": "waffle",
-          "desc": "Charter for Step Up",
-          "link": "https://twitter.com/Wafflehehehaha"
-        },
-        {
-          "name": "Danielodimension",
-          "icon": "danielodimension",
-          "desc": "Charter for future updates",
-          "link": "https://twitter.com/DrDanielo2 "
-        },
-        {
-          "name": "nightmarexonix",
-          "icon": "nightmarexonix",
-          "desc": "Charter for Breakfast",
-          "link": "https://twitter.com/NPirateSonic"
-        },
-        {
-          "name": "Dudugd",
-          "icon": "dudugd",
-          "desc": "Charter for future updates",
-          "link": "https://twitter.com/DuduGD2023 "
-        }
+          {
+              "name": "ninjamuffin99",
+              "desc": "Programmer of Friday Night Funkin'",
+              "link": "https://twitter.com/ninja_muffin99"
+          },
+          {
+              "name": "PhantomArcade",
+              "desc": "Animator of Friday Night Funkin'",
+              "link": "https://twitter.com/PhantomArcade3K"
+          },
+          {
+              "name": "evilsk8r",
+              "desc": "Artist of Friday Night Funkin'",
+              "link": "https://twitter.com/evilsk8r"
+          },
+          {
+              "name": "kawaisprite",
+              "desc": "Composer of Friday Night Funkin'",
+              "link": "https://twitter.com/kawaisprite"
+          }
       ]
-    },
-    {
-      "title": "Musicians",
-      "members": [
-        {
-          "name": "DonaldRaps",
-          "icon": "Donaldraps",
-          "desc": "Musician of Really 3D",
-          "link": "https://twitter.com/Offical620"
-        },
-        {
-          "name": "Neodoesmoosic",
-          "icon": "Neodoesmoosic_",
-          "desc": "Musician of Huh Neat, Pause menu, and Chillidogs",
-          "link": "https://twitter.com/neodoesismusic"
-        },
-        {
-          "name": "Crie",
-          "icon": "Crie",
-          "desc": "Musician of the Options song",
-          "link": "https://twitter.com/Carie7987"
-        },
-        {
-          "name": "Bruno",
-          "icon": "Bruno",
-          "desc": "Musician for Sage",
-          "link": "https://twitter.com/FrenchPPashn_Nz"
-        },
-        {
-          "name": "Sherbet",
-          "icon": "sherbet",
-          "desc": "Musician for future updates",
-          "link": "https://twitter.com/soulles_sord"
-        },
-        {
-          "name": "River",
-          "icon": "river",
-          "desc": "Contributed to Sage",
-          "link": "https://twitter.com/River_347"
-        },
-        {
-          "name": "Flashmighty",
-          "icon": "flashmighty",
-          "desc": "Composer for future updates",
-          "link": "https://twitter.com/FlashMightyGam2"
-        },
-        {
-          "name": "Anonymously_present",
-          "icon": "anonymously_present",
-          "desc": "Musician for FreePlay",
-          "link": "https://twitter.com/ThatGuyWhoDoes4"
-        },
-        {
-          "name": "Thefungang",
-          "icon": "thefungang",
-          "desc": "Musician for future updates",
-          "link": "https://twitter.com/Thefungang123"
-        },
-        {
-          "name": "Ratso",
-          "icon": "ratso",
-          "desc": "Musician for future updates",
-          "link": "https://twitter.com/TargetSausage"
-        },
-        {
-          "name": "Skullybou",
-          "icon": "skullybou",
-          "desc": "Musician of Breakfast and Credits menu",
-          "link": ""
-        },
-        {
-          "name": "Dupe",
-          "icon": "dupe",
-          "desc": "Musician of the title screen song",
-          "link": "https://twitter.com/Duplep0ster"
-        },
-        {
-          "name": "Danielodimension",
-          "icon": "danielodimension",
-          "desc": "Musician for future updates",
-          "link": "https://twitter.com/DrDanielo2"
-        },
-        {
-          "name": "Justshxdowlel",
-          "icon": "justshxdowlel",
-          "desc": "Musician for future updates (working on 3 WIP songs)",
-          "link": "https://twitter.com/shxdowH3dgeh0ga"
-        }
-      ]
-    },
-    {
-      "title": "Voice Actors",
-      "members": [
-        {
-          "name": "Waffle",
-          "icon": "waffle",
-          "desc": "Voice actor for a future update",
-          "link": "https://twitter.com/Wafflehehehaha"
-        },
-        {
-          "name": "Enderprime",
-          "icon": "enderman",
-          "desc": "Voice actor for Sonic and other versions of him",
-          "link": "https://twitter.com/EnderVa67"
-        },
-        {
-          "name": "Rusbe",
-          "icon": "placehold",
-          "desc": "Voice actor for the Brazilian Sonic translator",
-          "link": "https://twitter.com/rusbemetalgelad"
-        },
-        {
-          "name": "Jemart Martinez",
-          "icon": "jm",
-          "desc": "Voice actor for Tails and backup Sonic voice actor",
-          "link": "https://twitter.com/jordamartinez3?t=ADIp1rMiMRDec853w1P29Q&s=09"
-        },
-        {
-          "name": "Shagster",
-          "icon": "shagster",
-          "desc": "Voice actor for upcoming characters",
-          "link": "https://twitter.com/ShagGoated"
-        }
-      ]
-    },
-    {
-      "title": "Chromatic Scalers",
-      "members": [
-        {
-          "name": "Zuri_16",
-          "icon": "zuri",
-          "desc": "Chromatic scaler for future updates",
-          "link": "https://twitter.com/BitsZuri16"
-        },
-        {
-          "name": "Sherbet",
-          "icon": "sherbet",
-          "desc": "Chromatic scaler for Chillidogs",
-          "link": "https://twitter.com/soulles_sord"
-        },
-        {
-          "name": "Alegrai",
-          "icon": "alegrai",
-          "desc": "Chromatic scaler for future updates",
-          "link": "https://twitter.com/Alegrai2"
-        },
-        {
-          "name": "Shagster",
-          "icon": "shagster",
-          "desc": "Chromatic scaler for future updates",
-          "link": "https://twitter.com/ShagGoated"
-        },
-        {
-          "name": "Anonymously_present",
-          "icon": "anonymously_present",
-          "desc": "Chromatic scaler for Sonico",
-          "link": "https://twitter.com/ThatGuyWhoDoes4"
-        }
-      ]
-    },
-    {
-      "title": "Video Editor",
-      "members": [
-        {
-          "name": "Cosmo",
-          "icon": "cosmo",
-          "desc": "Edited the trailer for the Inferno Direct",
-          "link": "https://twitter.com/CleanCosmos"
-        },
-        {
-          "name": "Miles",
-          "icon": "miles",
-          "desc": "Edited the trailer for Sonic Funkin' Central (upcoming)",
-          "link": "https://www.youtube.com/channel/UCQr_xjtHEBHs7IbdHROyXOQ"
-        }
-      ]
-    },
-    {
-      "title": "Special Thanks",
-      "members": [
-        {
-          "name": "SMJ",
-          "icon": "smh",
-          "desc": "Coded the backgrounds",
-          "link": "https://twitter.com/SMJ0fficial"
-        },
-        {
-            "name": "GamerPablito",
-            "icon": "pablito",
-            "desc": "Helped Hero with The Credits",
-            "link": "https://twitter.com/GamerPablito1"
-        },
-        {
-          "name": "Fuzzysauce",
-          "icon": "fuzzysauce",
-          "desc": "Made the Snick, Snick.exe, and Chef BF icons",
-          "link": "https://twitter.com/henrynoteteled"
-        },
-        {
-          "name": "Vannisaturn",
-          "icon": "vannisaturn",
-          "desc": "Contributed loading screen, executable image, and BF design",
-          "link": ""
-        },
-        {
-          "name": "Lucky",
-          "icon": "lucky",
-          "desc": "Provided sprites for future updates",
-          "link": "https://twitter.com/Iam3rdTimeLucky"
-        },
-        {
-          "name": "The Chipu",
-          "icon": "chipu",
-          "desc": "Converted the Sonico chromatic into a dwp for Donald",
-          "link": "https://twitter.com/The_Chipu"
-        },
-        {
-         
-  
-   "name": "Epoli",
-          "icon": "epoli",
-          "desc": "Provided permission to use the Huh Neat BF from the Dorkly mod",
-          "link": "https://www.youtube.com/@epoli7423"
-        }
-      ]
-    },
-    {
-        "title": "Psych Engine Team",
-        "members": [
-            {
-                "name": "ShadowMario",
-                "desc": "Main Programmer of Psych Engine",
-                "link": "https://twitter.com/Shadow_Mario_"
-            },
-            {
-                "name": "RiverOaken",
-                "icon": "river",
-                "desc": "Main Artist/Animator of Psych Engine",
-                "link": "https://twitter.com/riverennn"
-            },
-            {
-                "name": "shubs",
-                "desc": "Additional Programmer of Psych Engine",
-                "link": "https://twitter.com/yoshubs"
-            }
-        ]
-    },
-    {
-        "title": "Engine Contributors",
-        "members": [
-            {
-                "name": "bbpanzu",
-                "icon": "bb",
-                "desc": "Ex-Programmer of Psych Engine",
-                "link": "https://twitter.com/bbsub3"
-            },
-            {
-                "name": "iFlicky",
-                "icon": "flicky",
-                "desc": "Composer of \"Psync\" and \"Tea Time\" and Dialogue SFX",
-                "link": "https://twitter.com/flicky_i"
-            },
-            {
-                "name": "SqirraRNG",
-                "icon": "sqirra",
-                "desc": "Crash Handler and Base Code for Chart Editor's Waveform",
-                "link": "https://twitter.com/gedehari"
-            },
-            {
-                "name": "PolybiusProxy",
-                "icon": "proxy",
-                "desc": "Video Format Loader Library (hxCodec)",
-                "link": "https://twitter.com/polybiusproxy"
-            },
-            {
-                "name": "KadeDev",
-                "icon": "kade",
-                "desc": "Fixed some cool stuff on Chart Editor and other PRs",
-                "link": "https://twitter.com/kade0912"
-            },
-            {
-                "name": "Keoiki",
-                "desc": "Note Splash Animations",
-                "link": "https://twitter.com/Keoiki_"
-            },
-            {
-                "name": "NebulaZorua",
-                "icon": "nebula",
-                "desc": "LUA JIT Fork and some Lua reworks",
-                "link": "https://twitter.com/Nebula_Zorua"
-            },
-            {
-                "name": "Smokey",
-                "desc": "Sprite Atlas Support",
-                "link": "https://twitter.com/Smokey_5_"
-            }
-        ]
-    },
-    {
-        "title": "Funkin' Crew",
-        "members": [
-            {
-                "name": "ninjamuffin99",
-                "desc": "Programmer of Friday Night Funkin'",
-                "link": "https://twitter.com/ninja_muffin99"
-            },
-            {
-                "name": "PhantomArcade",
-                "desc": "Animator of Friday Night Funkin'",
-                "link": "https://twitter.com/PhantomArcade3K"
-            },
-            {
-                "name": "evilsk8r",
-                "desc": "Artist of Friday Night Funkin'",
-                "link": "https://twitter.com/evilsk8r"
-            },
-            {
-                "name": "kawaisprite",
-                "desc": "Composer of Friday Night Funkin'",
-                "link": "https://twitter.com/kawaisprite"
-            }
-        ]
-    }
+  }
 ]

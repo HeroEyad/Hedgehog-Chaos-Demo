@@ -41,7 +41,7 @@ class LoadingState extends MusicBeatState
 	}
 
 	var funkay:FlxSprite;
-	var loadBar:FlxSprite;
+	var ringShit:FlxSprite;
 	override function create()
 	{
 		var bg:FlxSprite = new FlxSprite(0, 0).makeGraphic(FlxG.width, FlxG.height, 0xff0000ff);
@@ -52,10 +52,16 @@ class LoadingState extends MusicBeatState
 		add(funkay);
 		funkay.scrollFactor.set();
 		funkay.screenCenter();
-		loadBar = new FlxSprite(0, FlxG.height - 20).makeGraphic(FlxG.width, 10, 0xff0d43d6);
-		loadBar.screenCenter(X);
-		loadBar.antialiasing = ClientPrefs.globalAntialiasing;
-		add(loadBar);
+		var ringShit = new FlxSprite(250, 50);
+		ringShit.frames = Paths.getSparrowAtlas('coin');
+		ringShit.animation.addByPrefix('coin', 'coin', 24, true);
+		ringShit.animation.play('coin');
+		ringShit.setGraphicSize(Std.int(ringShit.width * 0.5));
+        ringShit.updateHitbox();
+		ringShit.setPosition(FlxG.width - ringShit.width, FlxG.height - ringShit.height);
+		ringShit.antialiasing = ClientPrefs.globalAntialiasing;
+		add(ringShit);
+		
 		
 		initSongsManifest().onComplete
 		(
@@ -115,11 +121,6 @@ class LoadingState extends MusicBeatState
 		if(controls.ACCEPT)
 		{
 			funkay.updateHitbox();
-		}
-
-		if(callbacks != null) {
-			targetShit = FlxMath.remapToRange(callbacks.numRemaining / callbacks.length, 1, 0, 0, 1);
-			loadBar.scale.x += 0.5 * (targetShit - loadBar.scale.x);
 		}
 	}
 	
