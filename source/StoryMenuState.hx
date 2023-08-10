@@ -72,16 +72,9 @@ class StoryMenuState extends MusicBeatState
 		rankText.size = scoreText.size;
 		rankText.screenCenter(X);
 
-		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('Blue'));
-		bg.setGraphicSize(Std.int(bg.width * 1.175));
-		bg.updateHitbox();
-		bg.screenCenter();
-		bg.antialiasing = ClientPrefs.globalAntialiasing;
-
 		var ui_tex = Paths.getSparrowAtlas('campaign_menu_UI_assets');
-		var bgBarrier:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menubackgrounds/select'));
-		bgBarrier.screenCenter();
-		bgSprite = new FlxSprite(-80);
+		var bgYellow:FlxSprite = new FlxSprite(0, 56).makeGraphic(FlxG.width, 386, 0xFFF9CF51);
+		bgSprite = new FlxSprite(0, 56);
 		bgSprite.antialiasing = ClientPrefs.globalAntialiasing;
 
 		grpWeekText = new FlxTypedGroup<MenuItem>();
@@ -151,7 +144,7 @@ class StoryMenuState extends MusicBeatState
 		leftArrow.animation.addByPrefix('press', "arrow push left");
 		leftArrow.animation.play('idle');
 		leftArrow.antialiasing = ClientPrefs.globalAntialiasing;
-		//difficultySelectors.add(leftArrow);
+		difficultySelectors.add(leftArrow);
 
 		CoolUtil.difficulties = CoolUtil.defaultDifficulties.copy();
 		if(lastDifficultyName == '')
@@ -162,7 +155,7 @@ class StoryMenuState extends MusicBeatState
 		
 		sprDifficulty = new FlxSprite(0, leftArrow.y);
 		sprDifficulty.antialiasing = ClientPrefs.globalAntialiasing;
-		//difficultySelectors.add(sprDifficulty);
+		difficultySelectors.add(sprDifficulty);
 
 		rightArrow = new FlxSprite(leftArrow.x + 376, leftArrow.y);
 		rightArrow.frames = ui_tex;
@@ -170,25 +163,24 @@ class StoryMenuState extends MusicBeatState
 		rightArrow.animation.addByPrefix('press', "arrow push right", 24, false);
 		rightArrow.animation.play('idle');
 		rightArrow.antialiasing = ClientPrefs.globalAntialiasing;
-		//difficultySelectors.add(rightArrow);
+		difficultySelectors.add(rightArrow);
 
-		add(bg);
-		add(bgBarrier);
+		add(bgYellow);
 		add(bgSprite);
 		add(grpWeekCharacters);
 
 		var tracksSprite:FlxSprite = new FlxSprite(FlxG.width * 0.07, bgSprite.y + 425).loadGraphic(Paths.image('Menu_Tracks'));
 		tracksSprite.antialiasing = ClientPrefs.globalAntialiasing;
-		//add(tracksSprite);
+		add(tracksSprite);
 
 		txtTracklist = new FlxText(FlxG.width * 0.05, tracksSprite.y + 60, 0, "", 32);
 		txtTracklist.alignment = CENTER;
 		txtTracklist.font = rankText.font;
 		txtTracklist.color = 0xFFe55777;
-		//add(txtTracklist);
+		add(txtTracklist);
 		// add(rankText);
-		//add(scoreText);
-		//add(txtWeekTitle);
+		add(scoreText);
+		add(txtWeekTitle);
 
 		changeWeek();
 		changeDifficulty();

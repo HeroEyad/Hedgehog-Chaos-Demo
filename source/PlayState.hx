@@ -294,7 +294,6 @@ class PlayState extends MusicBeatState
 
 	#if desktop
 	// Discord RPC variables
-	var curPortrait:String = "";
 	var storyDifficultyText:String = "";
 	var detailsText:String = "";
 	var detailsPausedText:String = "";
@@ -681,59 +680,6 @@ class PlayState extends MusicBeatState
 
 				var evilSnow:BGSprite = new BGSprite('christmas/evilSnow', -200, 700);
 				add(evilSnow);
-
-			case 'chillidogs':
-				var TMsky:BGSprite = new BGSprite('TMsky', -500, -200);
-				add(TMsky);
-				var TMmountains:BGSprite = new BGSprite('TMmountains', -500, -200);
-				add(TMmountains);
-				var TMclouds:BGSprite = new BGSprite('TMclouds', -500, -200);
-				add(TMclouds);
-				var TMwater:BGSprite = new BGSprite('TMwater', -500, -200);
-				add(TMwater);
-				var TMtree:BGSprite = new BGSprite('TMtree', -500, -200);
-				add(TMtree);
-				var TMground:BGSprite = new BGSprite('TMground', -500, -200);
-				add(TMground);
-
-			case 'sanicbg':
-			    GameOverSubstate.characterName = 'sanic-bf';
-				var sanicbackground:BGSprite = new BGSprite('sanicbackground', -400, -160);
-				sanicbackground.scrollFactor.set(0.9, 0.9);
-				add(sanicbackground);
-			
-			case 'for hire':
-				GameOverSubstate.characterName = 'bf-doekly';
-				var forhirelagenhet:BGSprite = new BGSprite('forhire', -500, -200);
-				add(forhirelagenhet);
-			
-			case 'really3d':
-				GameOverSubstate.characterName = 'really3Ddeath';
-				var really3dzone:BGSprite = new BGSprite('really3Dzone', -500, -200);
-				add(really3dzone);
-
-				var bug:BGSprite = new BGSprite('motobug', 1100, 420);
-				add(bug);
-
-				var coins:BGSprite = new BGSprite('coin', 400, 300, 1, 1, ['coin']);
-				coins.animation.addByPrefix('dance', 'coin', 24, true);
-				coins.animation.play('dance');
-				add(coins);
-
-				var coins2:BGSprite = new BGSprite('coin', 825, 300, 1, 1, ['coin']);
-				coins2.animation.addByPrefix('dance', 'coin', 24, true);
-				coins2.animation.play('dance');
-				add(coins2);
-
-				var coins3:BGSprite = new BGSprite('coin', 1275, 300, 1, 1, ['coin']);
-				coins3.animation.addByPrefix('dance', 'coin', 24, true);
-				coins3.animation.play('dance');
-				add(coins3);
-			
-			case 'sunk':
-				GameOverSubstate.characterName = 'Sunky BF';
-				var sunkcity:BGSprite = new BGSprite('sunk', -550, -300);
-				add(sunkcity);
 
 			case 'school': //Week 6 - Senpai, Roses
 				GameOverSubstate.deathSoundName = 'fnf_loss_sfx-pixel';
@@ -1342,9 +1288,6 @@ class PlayState extends MusicBeatState
 				case 'ugh' | 'guns' | 'stress':
 					tankIntro();
 
-				case 'step-up':
-				    startVideo('sanic intro');
-
 				default:
 					startCountdown();
 			}
@@ -1372,7 +1315,7 @@ class PlayState extends MusicBeatState
 	
 		#if desktop
 		// Updating Discord Rich Presence.
-		DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), curPortrait);
+		DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
 		#end
 
 		if(!ClientPrefs.controllerMode)
@@ -2397,15 +2340,6 @@ class PlayState extends MusicBeatState
 		FlxTween.tween(timeBar, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
 		FlxTween.tween(timeTxt, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
 
-		 switch(curSong){
-			case "Step Up": curPortrait = "step-it-up";
-			case "Breakfast": curPortrait = "breakfast";
-		 	case "Chillidogs": curPortrait = "chillidogs";
-		 	case "Huh Neat": curPortrait = "huh-neat";
-		 	case "Really 3D": curPortrait = "really-3d";
-		 	case "SAGE": curPortrait = "sage";
-		 }
-
 		switch(curStage)
 		{
 			case 'tank':
@@ -2418,7 +2352,7 @@ class PlayState extends MusicBeatState
 
 		#if desktop
 		// Updating Discord Rich Presence (with Time Left)
-		DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength, curPortrait);
+		DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength);
 		#end
 		setOnLuas('songLength', songLength);
 		callOnLuas('onSongStart', []);
@@ -2815,11 +2749,11 @@ class PlayState extends MusicBeatState
 			#if desktop
 			if (startTimer != null && startTimer.finished)
 			{
-				DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength - Conductor.songPosition - ClientPrefs.noteOffset, curPortrait);
+				DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength - Conductor.songPosition - ClientPrefs.noteOffset);
 			}
 			else
 			{
-				DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), curPortrait);
+				DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
 			}
 			#end
 		}
@@ -2834,11 +2768,11 @@ class PlayState extends MusicBeatState
 		{
 			if (Conductor.songPosition > 0.0)
 			{
-				DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength - Conductor.songPosition - ClientPrefs.noteOffset, curPortrait);
+				DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength - Conductor.songPosition - ClientPrefs.noteOffset);
 			}
 			else
 			{
-				DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), curPortrait);
+				DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
 			}
 		}
 		#end
@@ -2851,7 +2785,7 @@ class PlayState extends MusicBeatState
 		#if desktop
 		if (health > 0 && !paused)
 		{
-			DiscordClient.changePresence(detailsPausedText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), curPortrait);
+			DiscordClient.changePresence(detailsPausedText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
 		}
 		#end
 
@@ -3068,25 +3002,19 @@ class PlayState extends MusicBeatState
 
 		var iconOffset:Int = 26;
 
-		iconP1.x = 1080;
-		iconP2.x = 380;
-		iconP1.y = 560;
-		iconP2.y = 550;
+		iconP1.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01)) + (150 * iconP1.scale.x - 150) / 2 - iconOffset;
+		iconP2.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01)) - (150 * iconP2.scale.x) / 2 - iconOffset * 2;
 
 		if (health > 2)
 			health = 2;
 
 		if (healthBar.percent < 20)
 			iconP1.animation.curAnim.curFrame = 1;
-		else if (healthBar.percent > 80)
-			iconP1.animation.curAnim.curFrame = 2;
 		else
 			iconP1.animation.curAnim.curFrame = 0;
 
 		if (healthBar.percent > 80)
 			iconP2.animation.curAnim.curFrame = 1;
-		else if (healthBar.percent < 20)
-			iconP2.animation.curAnim.curFrame = 2;
 		else
 			iconP2.animation.curAnim.curFrame = 0;
 
@@ -3365,7 +3293,7 @@ class PlayState extends MusicBeatState
 		//}
 
 		#if desktop
-		DiscordClient.changePresence(detailsPausedText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), curPortrait);
+		DiscordClient.changePresence(detailsPausedText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
 		#end
 	}
 
@@ -3410,7 +3338,7 @@ class PlayState extends MusicBeatState
 
 				#if desktop
 				// Game Over doesn't get his own variable because it's only used here
-				DiscordClient.changePresence("Game Over - " + detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), curPortrait);
+				DiscordClient.changePresence("Game Over - " + detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
 				#end
 				isDead = true;
 				return true;
@@ -3914,7 +3842,6 @@ class PlayState extends MusicBeatState
 
 
 	public var transitioning = false;
-	var rankString:String = 'Null';
 	public function endSong():Void
 	{
 		//Should kill you if you tried to cheat
@@ -3963,14 +3890,13 @@ class PlayState extends MusicBeatState
 		#end
 
 		var ret:Dynamic = callOnLuas('onEndSong', [], false);
-		FlxG.log.add("rankString: " + rankString);
 		if(ret != FunkinLua.Function_Stop && !transitioning) {
 			if (SONG.validScore)
 			{
 				#if !switch
 				var percent:Float = ratingPercent;
 				if(Math.isNaN(percent)) percent = 0;
-				Highscore.saveScore(SONG.song, songScore, storyDifficulty, percent,rankString);
+				Highscore.saveScore(SONG.song, songScore, storyDifficulty, percent);
 				#end
 			}
 			playbackRate = 1;
