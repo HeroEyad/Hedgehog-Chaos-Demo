@@ -41,27 +41,23 @@ class LoadingState extends MusicBeatState
 	}
 
 	var funkay:FlxSprite;
-	var ringShit:FlxSprite;
+	var loadBar:FlxSprite;
 	override function create()
 	{
-		var bg:FlxSprite = new FlxSprite(0, 0).makeGraphic(FlxG.width, FlxG.height, 0xff0000ff);
+		var bg:FlxSprite = new FlxSprite(0, 0).makeGraphic(FlxG.width, FlxG.height, 0xffcaff4d);
 		add(bg);
-		funkay = new FlxSprite(0, 0).loadGraphic(Paths.image('loadingScreens/funkay${FlxG.random.int(1,13)}'));
+		funkay = new FlxSprite(0, 0).loadGraphic(Paths.getPath('images/funkay.png', IMAGE));
+		funkay.setGraphicSize(0, FlxG.height);
 		funkay.updateHitbox();
 		funkay.antialiasing = ClientPrefs.globalAntialiasing;
 		add(funkay);
 		funkay.scrollFactor.set();
 		funkay.screenCenter();
-		var ringShit = new FlxSprite(250, 50);
-		ringShit.frames = Paths.getSparrowAtlas('coin');
-		ringShit.animation.addByPrefix('coin', 'coin', 24, true);
-		ringShit.animation.play('coin');
-		ringShit.setGraphicSize(Std.int(ringShit.width * 0.5));
-        ringShit.updateHitbox();
-		ringShit.setPosition(FlxG.width - ringShit.width, FlxG.height - ringShit.height);
-		ringShit.antialiasing = ClientPrefs.globalAntialiasing;
-		add(ringShit);
-		
+
+		loadBar = new FlxSprite(0, FlxG.height - 20).makeGraphic(FlxG.width, 10, 0xffff16d2);
+		loadBar.screenCenter(X);
+		loadBar.antialiasing = ClientPrefs.globalAntialiasing;
+		add(loadBar);
 		
 		initSongsManifest().onComplete
 		(
@@ -117,10 +113,17 @@ class LoadingState extends MusicBeatState
 	override function update(elapsed:Float)
 	{
 		super.update(elapsed);
+		funkay.setGraphicSize(Std.int(0.88 * FlxG.width + 0.9 * (funkay.width - 0.88 * FlxG.width)));
 		funkay.updateHitbox();
 		if(controls.ACCEPT)
 		{
+			funkay.setGraphicSize(Std.int(funkay.width + 60));
 			funkay.updateHitbox();
+		}
+
+		if(callbacks != null) {
+			targetShit = FlxMath.remapToRange(callbacks.numRemaining / callbacks.length, 1, 0, 0, 1);
+			loadBar.scale.x += 0.5 * (targetShit - loadBar.scale.x);
 		}
 	}
 	
@@ -158,7 +161,7 @@ class LoadingState extends MusicBeatState
 		Paths.setCurrentLevel(directory);
 		trace('Setting asset folder to ' + directory);
 
-
+		#if NO_PRELOAD_ALL
 		var loaded:Bool = false;
 		if (PlayState.SONG != null) {
 			loaded = isSoundLoaded(getSongPath()) && (!PlayState.SONG.needsVoices || isSoundLoaded(getVocalPath())) && isLibraryLoaded("shared") && isLibraryLoaded(directory);
@@ -166,13 +169,14 @@ class LoadingState extends MusicBeatState
 		
 		if (!loaded)
 			return new LoadingState(target, stopMusic, directory);
+		#end
 		if (stopMusic && FlxG.sound.music != null)
 			FlxG.sound.music.stop();
 		
 		return target;
 	}
 	
-
+	#if NO_PRELOAD_ALL
 	static function isSoundLoaded(path:String):Bool
 	{
 		return Assets.cache.hasSound(path);
@@ -182,7 +186,7 @@ class LoadingState extends MusicBeatState
 	{
 		return Assets.getLibrary(library) != null;
 	}
-	
+	#end
 	
 	override function destroy()
 	{

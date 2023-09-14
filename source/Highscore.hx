@@ -10,12 +10,10 @@ class Highscore
 	public static var weekScores:Map<String, Int> = new Map();
 	public static var songScores:Map<String, Int> = new Map();
 	public static var songRating:Map<String, Float> = new Map();
-	public static var songRank:Map<String, String> = new Map();
 	#else
 	public static var weekScores:Map<String, Int> = new Map();
 	public static var songScores:Map<String, Int> = new Map<String, Int>();
 	public static var songRating:Map<String, Float> = new Map<String, Float>();
-	public static var songRank:Map<String, String> = new Map<String, Float>();
 	#end
 
 
@@ -24,7 +22,6 @@ class Highscore
 		var daSong:String = formatSong(song, diff);
 		setScore(daSong, 0);
 		setRating(daSong, 0);
-		setRank(daSong, 'Null');
 	}
 
 	public static function resetWeek(week:String, diff:Int = 0):Void
@@ -49,22 +46,18 @@ class Highscore
 		return newValue / tempMult;
 	}
 
-	public static function saveScore(song:String, score:Int = 0, ?diff:Int = 0, ?rating:Float = -1, ?rank:String = 'Null'):Void
+	public static function saveScore(song:String, score:Int = 0, ?diff:Int = 0, ?rating:Float = -1):Void
 	{
 		var daSong:String = formatSong(song, diff);
-
-		trace(rank);
 
 		if (songScores.exists(daSong)) {
 			if (songScores.get(daSong) < score) {
 				setScore(daSong, score);
-				setRank(daSong, rank);
 				if(rating >= 0) setRating(daSong, rating);
 			}
 		}
 		else {
 			setScore(daSong, score);
-			setRank(daSong, rank);
 			if(rating >= 0) setRating(daSong, rating);
 		}
 	}
@@ -100,14 +93,6 @@ class Highscore
 		FlxG.save.flush();
 	}
 
-	static function setRank(song:String, rank:String):Void
-	{
-		// Reminder that I don't need to format this song, it should come formatted!
-		songRank.set(song, rank);
-		FlxG.save.data.songRank = songRank;
-		FlxG.save.flush();
-	}
-
 	static function setRating(song:String, rating:Float):Void
 	{
 		// Reminder that I don't need to format this song, it should come formatted!
@@ -139,15 +124,6 @@ class Highscore
 		return songRating.get(daSong);
 	}
 
-	public static function getRank(song:String, diff:Int):String
-	{
-		var daSong:String = formatSong(song, diff);
-		if (!songRank.exists(daSong))
-			setRank(song, 'Null');
-	
-		return songRank.get(daSong);
-	}
-
 	public static function getWeekScore(week:String, diff:Int):Int
 	{
 		var daWeek:String = formatSong(week, diff);
@@ -162,10 +138,6 @@ class Highscore
 		if (FlxG.save.data.weekScores != null)
 		{
 			weekScores = FlxG.save.data.weekScores;
-		}
-		if (FlxG.save.data.songRank != null)
-		{
-			songRank = FlxG.save.data.songRank;
 		}
 		if (FlxG.save.data.songScores != null)
 		{
