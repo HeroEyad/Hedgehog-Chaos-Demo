@@ -498,12 +498,12 @@ class FreeplayState extends MusicBeatState
 					intendedRating = Highscore.getRating(songs[curSelected].songName, curDifficulty); #end
 				}});
 
-				// var rankScore:String = Highscore.getRank(songs[curSelected].songName, curDifficulty);
-			//	if (rankScore == null) rankScore = 'Null';
-			//	rankSprite.changeRank(rankScore);
-			//	rankSprite.angle = 90;
-			//	scoreTween[1] = FlxTween.tween(rankSprite, {alpha:1, angle: 0}, timeTween, {ease:FlxEase.circOut,startDelay:timeTween});
-		//	}});
+				var rankScore:String = Highscore.getRank(songs[curSelected].songName, curDifficulty);
+				if (rankScore == null) rankScore = 'Null';
+				rankSprite.changeRank(rankScore);
+				rankSprite.angle = 90;
+				scoreTween[1] = FlxTween.tween(rankSprite, {alpha:1, angle: 0}, timeTween, {ease:FlxEase.circOut,startDelay:timeTween});
+			}});
 			FlxTween.tween(arrow, {alpha:0}, timeTween - 0.2);
 
 
@@ -564,7 +564,7 @@ class FreeplayState extends MusicBeatState
 		// 	});
 		// }
 
-	//	trace(Highscore.getRank(songs[curSelected].songName, curDifficulty));
+		trace(Highscore.getRank(songs[curSelected].songName, curDifficulty));
 
 		// selector.y = (70 * curSelected) + 30;
 
