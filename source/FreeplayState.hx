@@ -294,8 +294,8 @@ class FreeplayState extends MusicBeatState
 		scoreText.text = 'SCORE: \n' + lerpScore + '\n' + '(' + ratingSplit.join('.') + '%)' + '\n\nRANK:';
 		positionHighscore();
 
-		var upP = controls.UI_LEFT_P || controls.UI_UP_P;
-		var downP = controls.UI_RIGHT_P || controls.UI_DOWN_P;
+		var upP = controls.UI_UP_P;
+		var downP = controls.UI_DOWN_P;
 		var accepted = controls.ACCEPT;
 		var space = FlxG.keys.justPressed.SPACE;
 		var ctrl = FlxG.keys.justPressed.CONTROL;
@@ -352,7 +352,7 @@ class FreeplayState extends MusicBeatState
 				if(colorTween != null) {
 					colorTween.cancel();
 				}
-				FlxG.sound.playMusic(Paths.music("freakyMenu"));
+				FlxG.sound.playMusic(Paths.music("freeplayMenu"));
 				FlxG.sound.play(Paths.sound('cancelMenu'));
 				MusicBeatState.switchState(new MainMenuState());
 			} else showRank(false);
