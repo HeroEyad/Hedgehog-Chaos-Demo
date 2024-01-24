@@ -456,6 +456,16 @@ class PlayState extends MusicBeatState
 					curStage = 'schoolEvil';
 				case 'ugh' | 'guns' | 'stress':
 					curStage = 'tank';
+				case 'chillidogs':
+				    curStage = 'chillidogs';
+				case 'step up':
+				    curStage = 'sanicbg';
+				case 'huh neat':
+				    curStage = 'for hire';
+				case "really 3d":
+				    curStage = "really3d";
+				case 'breakfast':
+				    curStage = 'sunk';
 				default:
 					curStage = 'stage';
 			}
@@ -680,6 +690,59 @@ class PlayState extends MusicBeatState
 
 				var evilSnow:BGSprite = new BGSprite('christmas/evilSnow', -200, 700);
 				add(evilSnow);
+
+			case 'chillidogs':
+				var TMsky:BGSprite = new BGSprite('TMsky', -500, -200);
+				add(TMsky);
+				var TMmountains:BGSprite = new BGSprite('TMmountains', -500, -200);
+				add(TMmountains);
+				var TMclouds:BGSprite = new BGSprite('TMclouds', -500, -200);
+				add(TMclouds);
+				var TMwater:BGSprite = new BGSprite('TMwater', -500, -200);
+				add(TMwater);
+				var TMtree:BGSprite = new BGSprite('TMtree', -500, -200);
+				add(TMtree);
+				var TMground:BGSprite = new BGSprite('TMground', -500, -200);
+				add(TMground);
+
+			case 'sanicbg':
+			    GameOverSubstate.characterName = 'sanic-bf';
+				var sanicbackground:BGSprite = new BGSprite('sanicbackground', -400, -160);
+				sanicbackground.scrollFactor.set(0.9, 0.9);
+				add(sanicbackground);
+			
+			case 'for hire':
+				GameOverSubstate.characterName = 'bf-doekly';
+				var forhirelagenhet:BGSprite = new BGSprite('forhire', -500, -200);
+				add(forhirelagenhet);
+			
+			case 'really3d':
+				GameOverSubstate.characterName = 'really3Ddeath';
+				var really3dzone:BGSprite = new BGSprite('really3Dzone', -500, -200);
+				add(really3dzone);
+
+				var bug:BGSprite = new BGSprite('motobug', 1100, 420);
+				add(bug);
+
+				var coins:BGSprite = new BGSprite('coin', 400, 300, 1, 1, ['coin']);
+				coins.animation.addByPrefix('dance', 'coin', 24, true);
+				coins.animation.play('dance');
+				add(coins);
+
+				var coins2:BGSprite = new BGSprite('coin', 825, 300, 1, 1, ['coin']);
+				coins2.animation.addByPrefix('dance', 'coin', 24, true);
+				coins2.animation.play('dance');
+				add(coins2);
+
+				var coins3:BGSprite = new BGSprite('coin', 1275, 300, 1, 1, ['coin']);
+				coins3.animation.addByPrefix('dance', 'coin', 24, true);
+				coins3.animation.play('dance');
+				add(coins3);
+			
+			case 'sunk':
+				GameOverSubstate.characterName = 'Sunky BF';
+				var sunkcity:BGSprite = new BGSprite('sunk', -550, -300);
+				add(sunkcity);
 
 			case 'school': //Week 6 - Senpai, Roses
 				GameOverSubstate.deathSoundName = 'fnf_loss_sfx-pixel';
