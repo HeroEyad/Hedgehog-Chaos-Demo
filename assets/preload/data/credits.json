@@ -105,7 +105,7 @@
       },
       {
         "name": "Flipethebased",
-        "icon": "flipethebased",
+        "icon": "flipes",
         "desc": "Artist for future updates",
         "link": "https://twitter.com/FlipeTheBased"
       },
@@ -123,7 +123,7 @@
       },
       {
         "name": "Maddie",
-        "icon": "maddie",
+        "icon": "Maddie",
         "desc": "Menu art and spritesheet artist",
         "link": "https://twitter.com/MaddshuraSRB2"
       },
@@ -175,8 +175,8 @@
         "link": "https://twitter.com/gordo_mele"
       },
       {
-        "name": "stick_pi",
-        "icon": "stick_pi",
+        "name": "Stick-pi",
+        "icon": "Stick-pi",
         "desc": "Menu art and concept artist",
         "link": "https://twitter.com/stick_pi"
       },
@@ -188,19 +188,19 @@
       },
       {
         "name": "MR.Penguin",
-        "icon": "mrpenguin",
+        "icon": "Mr.Penguin",
         "desc": "Pixel artist for future updates",
         "link": "https://twitter.com/IceyPenguin3"
       },
       {
         "name": "Ema",
-        "icon": "ema",
+        "icon": "Ema",
         "desc": "Artist, animator, concept artist for Snick",
         "link": "https://twitter.com/EmaClay3"
       },
       {
         "name": "drowsys",
-        "icon": "drowsys",
+        "icon": "Clown",
         "desc": "Contributed to almost everything for Sage",
         "link": "https://twitter.com/DrowsysTwT"
       },
@@ -235,7 +235,7 @@
   "members": [
       {
         "name": "John9Doe",
-        "icon": "john",
+        "icon": "John9Doe",
         "desc": "Menu art and 3D modeler",
         "link": "https://twitter.com/Pr1nter3"
       },
@@ -243,29 +243,29 @@
         "name": "Billy",
         "icon": "billy",
         "desc": "Snick.exe artist, pixel and normal artist",
-        "link": ""
+        "link": "https://www.youtube.com/watch?v=-PX_q_yGMQs"
       },
       {
         "name": "blanonboii",
-        "icon": "blanonboii",
+        "icon": "Blanonboii",
         "desc": "Background artist, created some xmls",
         "link": "https://twitter.com/Wojtek13058269"
       },
       {
         "name": "meytach",
-        "icon": "meytach",
+        "icon": "Meytach",
         "desc": "Pixel artist and background artist",
         "link": "https://twitter.com/MeytachZ"
       },
       {
         "name": "CrackerSnaps",
-        "icon": "crackersnaps",
+        "icon": "Crackersnaps",
         "desc": "Background artist",
         "link": "https://twitter.com/CrackerSnapDev"
       },
       {
         "name": "Supahsta",
-        "icon": "supahsta",
+        "icon": "Supahsta_",
         "desc": "Pixel artist for future updates",
         "link": "https://twitter.com/Mari0haraZONE"
       },
@@ -276,26 +276,20 @@
         "link": "https://twitter.com/PalkVerse"
       },
       {
-        "name": "Jesus Viloria",
-        "icon": "viloria",
+        "name": "Jesús Viloria",
+        "icon": "Jesús Viloria",
         "desc": "Menu artist",
         "link": "https://twitter.com/OficialViloria"
       },
       {
         "name": "arvarin",
-        "icon": "arvarin",
+        "icon": "Arvarin",
         "desc": "Concept artist and musician",
         "link": "https://twitter.com/arvarin_"
       },
       {
-        "name": "Sonic.Xills",
-        "icon": "sonic.xills",
-        "desc": "Artist for future updates for the mod",
-        "link": ""
-      },
-      {
         "name": "MilesSSC",
-        "icon": "miles",
+        "icon": "Miles",
         "desc": "Concept artist",
         "link": "https://www.youtube.com/channel/UCQr_xjtHEBHs7IbdHROyXOQ"
       }
@@ -376,16 +370,10 @@
         "link": "https://twitter.com/DuduGD2023"
       },
       {
-        "name": "SupersonicAlbert",
-        "icon": "SupersonicAlbert",
-        "desc": "Discord integration",
-        "link": "https://twitter.com/SuperSonicAl64"
-      },
-      {
-        "name": "Kapsfox",
-        "icon": "Kapsfox",
-        "desc": "Upcoming menus",
-        "link": "https://www.youtube.com/channel/UCyWDty00-PIXSStbgdOWVJQ"
+        "name": "SuperSonic Al",
+        "icon": "SuperSonic Al",
+        "desc": "Discord presence",
+        "link": "https://www.youtube.com/@supersonical8770/"
       }
     ]
   },
@@ -399,32 +387,32 @@
         "link": "https://twitter.com/GoldennightX"
       },
       {
-        "name": "Sherbet",
-        "icon": "sherbet",
+        "name": "Souless",
+        "icon": "Cysaber",
         "desc": "Charter for Huh Neat",
         "link": "https://twitter.com/soulles_sord"
       },
       {
         "name": "Gabe",
-        "icon": "gabe",
+        "icon": "Gabe",
         "desc": "Charter for Chillidogs",
         "link": "https://twitter.com/gabe5003"
       },
       {
         "name": "T-bar",
-        "icon": "t-bar",
+        "icon": "T-bar",
         "desc": "Charter for future updates",
         "link": "https://twitter.com/tbar27862"
       },
       {
         "name": "Kapsfox",
-        "icon": "kapsfox",
+        "icon": "Kapsfox",
         "desc": "Charter for future updates",
         "link": "https://www.youtube.com/channel/UCyWDty00-PIXSStbgdOWVJQ"
       },
       {
         "name": "Timson",
-        "icon": "timson",
+        "icon": "Timson",
         "desc": "Charter for Old Really 3D",
         "link": "https://twitter.com/Timson3037"
       },
@@ -448,19 +436,19 @@
       },
       {
         "name": "Danielodimension",
-        "icon": "danielodimension",
+        "icon": "daniel",
         "desc": "Charter for future updates",
         "link": "https://twitter.com/DrDanielo2 "
       },
       {
         "name": "nightmarexonix",
-        "icon": "nightmarexonix",
+        "icon": "Nightmare_PirateSonic_Icon_2",
         "desc": "Charter for Breakfast",
         "link": "https://twitter.com/NPirateSonic"
       },
       {
         "name": "Dudugd",
-        "icon": "dudugd",
+        "icon": "DuduGD2023",
         "desc": "Charter for future updates",
         "link": "https://twitter.com/DuduGD2023 "
       }
@@ -494,14 +482,14 @@
         "link": "https://twitter.com/FrenchPPashn_Nz"
       },
       {
-        "name": "Sherbet",
-        "icon": "sherbet",
+        "name": "Souless",
+        "icon": "Cysaber",
         "desc": "Musician for future updates",
         "link": "https://twitter.com/soulles_sord"
       },
       {
-        "name": "River",
-        "icon": "river",
+        "name": "River347",
+        "icon": "River347",
         "desc": "Contributed to Sage",
         "link": "https://twitter.com/River_347"
       },
@@ -513,45 +501,33 @@
       },
       {
         "name": "Anonymously_present",
-        "icon": "anonymously_present",
+        "icon": "Anonymously present",
         "desc": "Musician for FreePlay",
         "link": "https://twitter.com/ThatGuyWhoDoes4"
       },
       {
         "name": "Thefungang",
-        "icon": "thefungang",
+        "icon": "Thefungang123",
         "desc": "Musician for future updates",
         "link": "https://twitter.com/Thefungang123"
       },
       {
-        "name": "Ratso",
-        "icon": "ratso",
-        "desc": "Musician for future updates",
-        "link": "https://twitter.com/TargetSausage"
-      },
-      {
         "name": "Skullybou",
-        "icon": "skullybou",
+        "icon": "placehold",
         "desc": "Musician of Breakfast and Credits menu",
-        "link": ""
+        "link": "https://twitter.com/skullybou"
       },
       {
         "name": "Dupe",
-        "icon": "dupe",
+        "icon": "Dupe",
         "desc": "Musician of the title screen song",
         "link": "https://twitter.com/Duplep0ster"
       },
       {
         "name": "Danielodimension",
-        "icon": "danielodimension",
+        "icon": "daniel",
         "desc": "Musician for future updates",
         "link": "https://twitter.com/DrDanielo2"
-      },
-      {
-        "name": "Justshxdowlel",
-        "icon": "justshxdowlel",
-        "desc": "Musician for future updates (working on 3 WIP songs)",
-        "link": "https://twitter.com/shxdowH3dgeh0ga"
       }
     ]
   },
@@ -584,7 +560,7 @@
       },
       {
         "name": "Shagster",
-        "icon": "shagster",
+        "icon": "Shagster",
         "desc": "Voice actor for upcoming characters",
         "link": "https://twitter.com/ShagGoated"
       }
@@ -600,26 +576,26 @@
         "link": "https://twitter.com/BitsZuri16"
       },
       {
-        "name": "Sherbet",
-        "icon": "sherbet",
+        "name": "Souless",
+        "icon": "Cysaber",
         "desc": "Chromatic scaler for Chillidogs",
         "link": "https://twitter.com/soulles_sord"
       },
       {
         "name": "Alegrai",
-        "icon": "alegrai",
+        "icon": "Alegrai",
         "desc": "Chromatic scaler for future updates",
         "link": "https://twitter.com/Alegrai2"
       },
       {
         "name": "Shagster",
-        "icon": "shagster",
+        "icon": "Shagster",
         "desc": "Chromatic scaler for future updates",
         "link": "https://twitter.com/ShagGoated"
       },
       {
         "name": "Anonymously_present",
-        "icon": "anonymously_present",
+        "icon": "Anonymously present",
         "desc": "Chromatic scaler for Sonico",
         "link": "https://twitter.com/ThatGuyWhoDoes4"
       }
@@ -630,13 +606,13 @@
     "members": [
       {
         "name": "Cosmo",
-        "icon": "cosmo",
+        "icon": "placehold",
         "desc": "Edited the trailer for the Inferno Direct",
         "link": "https://twitter.com/CleanCosmos"
       },
       {
-        "name": "Miles",
-        "icon": "miles",
+        "name": "MilesSSC",
+        "icon": "Miles",
         "desc": "Edited the trailer for Sonic Funkin' Central (upcoming)",
         "link": "https://www.youtube.com/channel/UCQr_xjtHEBHs7IbdHROyXOQ"
       }
@@ -647,7 +623,7 @@
     "members": [
       {
         "name": "SMJ",
-        "icon": "smh",
+        "icon": "Smj",
         "desc": "Coded the backgrounds",
         "link": "https://twitter.com/SMJ0fficial"
       },
@@ -665,27 +641,25 @@
       },
       {
         "name": "Vannisaturn",
-        "icon": "vannisaturn",
+        "icon": "Vannisaturn",
         "desc": "Contributed loading screen, executable image, and BF design",
-        "link": ""
+        "link": "https://www.youtube.com/watch?v=BbeeuzU5Qc8"
       },
       {
         "name": "Lucky",
-        "icon": "lucky",
+        "icon": "Lucky_",
         "desc": "Provided sprites for future updates",
         "link": "https://twitter.com/Iam3rdTimeLucky"
       },
       {
         "name": "The Chipu",
-        "icon": "chipu",
+        "icon": "placehold",
         "desc": "Converted the Sonico chromatic into a dwp for Donald",
         "link": "https://twitter.com/The_Chipu"
       },
       {
-       
-
- "name": "Epoli",
-        "icon": "epoli",
+       "name": "Epoli",
+        "icon": "Epoli",
         "desc": "Provided permission to use the Huh Neat BF from the Dorkly mod",
         "link": "https://www.youtube.com/@epoli7423"
       }
