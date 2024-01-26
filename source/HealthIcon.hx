@@ -49,7 +49,7 @@ class HealthIcon extends FlxSprite
 			iconOffsets[2] = (width - 150) / 3;
 			updateHitbox();
 
-			animation.add(char, [0, 1], 0, false, isPlayer);
+			animation.add(char, [0, 1, 2], 0, false, isPlayer);
 			animation.play(char);
 			this.char = char;
 
