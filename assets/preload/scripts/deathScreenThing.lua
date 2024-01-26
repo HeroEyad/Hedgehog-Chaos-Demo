@@ -16,4 +16,8 @@ function onGameOverStart()
 
 	doTweenX('gametween', 'gameText', gameOverTextOffsets[1], 0.2, 'linear')
 	doTweenX('overtween', 'overText', (gameOverTextOffsets[1]+getProperty('gameText.width'))+20, 0.2, 'linear')
+
+	if songName == 'breakfast' then
+		startVideo('sunkover')
+	end
 end
