@@ -697,14 +697,8 @@ class PlayState extends MusicBeatState
 				add(TMsky);
 				var TMmountains:BGSprite = new BGSprite('TMmountains', -500, -200);
 				add(TMmountains);
-				var TMclouds:BGSprite = new BGSprite('TMclouds', -500, -200);
-				add(TMclouds);
 				var TMwater:BGSprite = new BGSprite('TMwater', -500, -200);
 				add(TMwater);
-				var TMtree:BGSprite = new BGSprite('TMtree', -500, -200);
-				add(TMtree);
-				var TMground:BGSprite = new BGSprite('TMground', -500, -200);
-				add(TMground);
 
 			case 'sanicbg':
 			    GameOverSubstate.characterName = 'sanic-bf';
