@@ -1,37 +1,37 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				255,
 				191
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "firstDeath",
-			"indices": [],
-			"name": "death"
+			"fps": 24,
+			"name": "death",
+			"indices": []
 		},
 		{
+			"loop": true,
 			"offsets": [
 				304,
 				226
 			],
-			"loop": true,
-			"fps": 24,
 			"anim": "deathLoop",
-			"indices": [],
-			"name": "loop"
+			"fps": 24,
+			"name": "loop",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				247,
 				199
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "deathConfirm",
-			"indices": [],
-			"name": "again"
+			"fps": 24,
+			"name": "again",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -48,8 +48,8 @@
 		209
 	],
 	"camera_position": [
-		0,
-		0
+		350,
+		-130
 	],
 	"sing_duration": 4,
 	"scale": 1
