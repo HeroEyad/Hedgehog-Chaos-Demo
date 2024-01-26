@@ -2085,10 +2085,10 @@ class PlayState extends MusicBeatState
 	{
 		var introAssets:Map<String, Array<String>> = new Map<String, Array<String>>();
 		introAssets.set('default', ['ready', 'set', 'go']);
-		introAssets.set('pixel', ['pixelUI/ready-pixel', 'pixelUI/set-pixel', 'pixelUI/date-pixel']);
+		introAssets.set('pixel', ['ready', 'set', 'go']);
 
 		var introAlts:Array<String> = introAssets.get('default');
-		if (isPixelStage) introAlts = introAssets.get('pixel');
+		if (isPixelStage) introAlts = introAssets.get('default');
 		
 		for (asset in introAlts)
 			Paths.image(asset);
@@ -2160,12 +2160,12 @@ class PlayState extends MusicBeatState
 
 				var introAssets:Map<String, Array<String>> = new Map<String, Array<String>>();
 				introAssets.set('default', ['ready', 'set', 'go']);
-				introAssets.set('pixel', ['pixelUI/ready-pixel', 'pixelUI/set-pixel', 'pixelUI/date-pixel']);
+				introAssets.set('pixel', ['ready', 'set', 'go']);
 
 				var introAlts:Array<String> = introAssets.get('default');
 				var antialias:Bool = ClientPrefs.globalAntialiasing;
 				if(isPixelStage) {
-					introAlts = introAssets.get('pixel');
+					introAlts = introAssets.get('default');
 					antialias = false;
 				}
 
@@ -2188,9 +2188,6 @@ class PlayState extends MusicBeatState
 						countdownReady.scrollFactor.set();
 						countdownReady.updateHitbox();
 
-						if (PlayState.isPixelStage)
-							countdownReady.setGraphicSize(Std.int(countdownReady.width * daPixelZoom));
-
 						countdownReady.screenCenter();
 						countdownReady.antialiasing = antialias;
 						insert(members.indexOf(notes), countdownReady);
@@ -2208,9 +2205,6 @@ class PlayState extends MusicBeatState
 						countdownSet.cameras = [camHUD];
 						countdownSet.scrollFactor.set();
 
-						if (PlayState.isPixelStage)
-							countdownSet.setGraphicSize(Std.int(countdownSet.width * daPixelZoom));
-
 						countdownSet.screenCenter();
 						countdownSet.antialiasing = antialias;
 						insert(members.indexOf(notes), countdownSet);
@@ -2227,9 +2221,6 @@ class PlayState extends MusicBeatState
 						countdownGo = new FlxSprite().loadGraphic(Paths.image(introAlts[2]));
 						countdownGo.cameras = [camHUD];
 						countdownGo.scrollFactor.set();
-
-						if (PlayState.isPixelStage)
-							countdownGo.setGraphicSize(Std.int(countdownGo.width * daPixelZoom));
 
 						countdownGo.updateHitbox();
 
