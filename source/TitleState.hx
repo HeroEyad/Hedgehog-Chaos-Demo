@@ -506,6 +506,7 @@ class TitleState extends MusicBeatState
 				transitioning = true;
 
 				FlxTween.tween(logoBl, {y: logoBl.y+1000, angle: -40}, 0.8,{ease: FlxEase.backIn});
+				FlxTween.tween(FlxG.camera, {zoom: 4}, 1, {ease: FlxEase.sineInOut, startDelay: 0.8});
 				// FlxG.sound.music.stop();
 
 				new FlxTimer().start(1, function(tmr:FlxTimer)
@@ -683,7 +684,7 @@ class TitleState extends MusicBeatState
 				case 42:
 					// FlxG.random.getObject(getIntroTextShit());
 					addMoreText('Stranger', 15);
-					addMoreText('Gabe', 15);
+					addMoreText('HeroEyad', 15);
 					addMoreText('Michelle', 15);	
 				case 48:
 					deleteCoolText();				

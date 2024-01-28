@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="tailsdorkly.png">
+	<!-- Created with Adobe Animate version 18.0.1.115 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="tails_theguy instance 10000" x="0" y="0" width="480" height="376" frameX="0" frameY="-5" frameWidth="480" frameHeight="381"/>
+	<SubTexture name="tails_theguy instance 10001" x="480" y="0" width="476" height="377" frameX="-1" frameY="-4" frameWidth="480" frameHeight="381"/>
+	<SubTexture name="tails_theguy instance 10002" x="956" y="0" width="472" height="378" frameX="-1" frameY="-3" frameWidth="480" frameHeight="381"/>
+	<SubTexture name="tails_theguy instance 10003" x="1428" y="0" width="469" height="378" frameX="-1" frameY="-2" frameWidth="480" frameHeight="381"/>
+	<SubTexture name="tails_theguy instance 10004" x="0" y="378" width="467" height="378" frameX="-1" frameY="-2" frameWidth="480" frameHeight="381"/>
+	<SubTexture name="tails_theguy instance 10005" x="467" y="378" width="465" height="377" frameX="-1" frameY="-2" frameWidth="480" frameHeight="381"/>
+	<SubTexture name="tails_theguy instance 10006" x="932" y="378" width="463" height="378" frameX="-1" frameY="-1" frameWidth="480" frameHeight="381"/>
+	<SubTexture name="tails_theguy instance 10007" x="1395" y="378" width="462" height="378" frameX="-1" frameY="-1" frameWidth="480" frameHeight="381"/>
+	<SubTexture name="tails_theguy instance 10008" x="0" y="756" width="462" height="381" frameX="0" frameY="0" frameWidth="480" frameHeight="381"/>
+	<SubTexture name="tails_theguy instance 10009" x="0" y="756" width="462" height="381" frameX="0" frameY="0" frameWidth="480" frameHeight="381"/>
+	<SubTexture name="tails_theguy instance 10010" x="462" y="756" width="462" height="381" frameX="0" frameY="0" frameWidth="480" frameHeight="381"/>
+	<SubTexture name="tails_theguy instance 10011" x="462" y="756" width="462" height="381" frameX="0" frameY="0" frameWidth="480" frameHeight="381"/>
+	<SubTexture name="tails_theguy instance 10012" x="924" y="756" width="462" height="381" frameX="0" frameY="0" frameWidth="480" frameHeight="381"/>
+	<SubTexture name="tails_theguy instance 10013" x="924" y="756" width="462" height="381" frameX="0" frameY="0" frameWidth="480" frameHeight="381"/>
+	<SubTexture name="tails_theguy instance 10014" x="1386" y="756" width="462" height="381" frameX="0" frameY="0" frameWidth="480" frameHeight="381"/>
+	<SubTexture name="tails_theguy instance 10015" x="1386" y="756" width="462" height="381" frameX="0" frameY="0" frameWidth="480" frameHeight="381"/>
+	<SubTexture name="tails_wtf instance 10000" x="0" y="1137" width="486" height="377" frameX="0" frameY="-4" frameWidth="486" frameHeight="381"/>
+	<SubTexture name="tails_wtf instance 10001" x="486" y="1137" width="481" height="378" frameX="0" frameY="-3" frameWidth="486" frameHeight="381"/>
+	<SubTexture name="tails_wtf instance 10002" x="967" y="1137" width="475" height="378" frameX="-1" frameY="-3" frameWidth="486" frameHeight="381"/>
+	<SubTexture name="tails_wtf instance 10003" x="1442" y="1137" width="470" height="378" frameX="-2" frameY="-2" frameWidth="486" frameHeight="381"/>
+	<SubTexture name="tails_wtf instance 10004" x="0" y="1515" width="466" height="378" frameX="-3" frameY="-2" frameWidth="486" frameHeight="381"/>
+	<SubTexture name="tails_wtf instance 10005" x="466" y="1515" width="463" height="379" frameX="-3" frameY="-1" frameWidth="486" frameHeight="381"/>
+	<SubTexture name="tails_wtf instance 10006" x="929" y="1515" width="461" height="379" frameX="-3" frameY="-1" frameWidth="486" frameHeight="381"/>
+	<SubTexture name="tails_wtf instance 10007" x="1390" y="1515" width="460" height="379" frameX="-3" frameY="-1" frameWidth="486" frameHeight="381"/>
+	<SubTexture name="tails_wtf instance 10008" x="0" y="1894" width="460" height="381" frameX="-3" frameY="0" frameWidth="486" frameHeight="381"/>
+	<SubTexture name="tails_wtf instance 10009" x="460" y="1894" width="460" height="381" frameX="-3" frameY="0" frameWidth="486" frameHeight="381"/>
+	<SubTexture name="tails_wtf instance 10010" x="460" y="1894" width="460" height="381" frameX="-3" frameY="0" frameWidth="486" frameHeight="381"/>
+	<SubTexture name="tails_wtf instance 10011" x="920" y="1894" width="460" height="381" frameX="-3" frameY="0" frameWidth="486" frameHeight="381"/>
+	<SubTexture name="tails_wtf instance 10012" x="920" y="1894" width="460" height="381" frameX="-3" frameY="0" frameWidth="486" frameHeight="381"/>
+	<SubTexture name="tails_wtf instance 10013" x="1380" y="1894" width="460" height="381" frameX="-3" frameY="0" frameWidth="486" frameHeight="381"/>
+	<SubTexture name="tails_wtf instance 10014" x="1380" y="1894" width="460" height="381" frameX="-3" frameY="0" frameWidth="486" frameHeight="381"/>
+</TextureAtlas>
