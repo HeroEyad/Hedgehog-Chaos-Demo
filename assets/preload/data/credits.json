@@ -1,11 +1,40 @@
 [
   {
+    "title": "Directors",
+    "members": [
+      {
+        "name": "HeroEyad",
+        "icon": "eyad",
+        "desc": "Main Director",
+        "link": "https://twitter.com/HeroEyad_"
+      },
+      {
+        "name": "Michelle",
+        "icon": "Michelle",
+        "desc": "Co-director",
+        "link": "https://twitter.com/MichellePVZ"
+      },
+      {
+        "name": "thastrangerguy",
+        "icon": "stranger",
+        "desc": "EX-Director",
+        "link": "https://twitter.com/thastrangeguy"
+      },
+      {
+        "name": "Gabe",
+        "icon": "Gabe",
+        "desc": "Ex-Co-Director",
+        "link": "https://twitter.com/gabe5003"
+      }
+    ]
+},
+{
     "title": "Artists + 3D Modelers",
     "members": [
       {
         "name": "thastrangerguy",
         "icon": "stranger",
-        "desc": "Director, icons, background artist, menu designs, and spritesheets",
+        "desc": "Icons, background artist, menu designs, and spritesheets",
         "link": "https://twitter.com/thastrangeguy"
       },
       {
@@ -301,7 +330,7 @@
       {
         "name": "Gabe",
         "icon": "Gabe",
-        "desc": "Co-director, animated almost everything",
+        "desc": "Animated almost everything",
         "link": "https://twitter.com/gabe5003"
       },
       {
@@ -342,7 +371,7 @@
       {
         "name": "Michelle",
         "icon": "Michelle",
-        "desc": "Co-director, menu layout (FreePlay)",
+        "desc": "Menu layout (FreePlay)",
         "link": "https://twitter.com/MichellePVZ"
       },
       {
@@ -374,6 +403,12 @@
         "icon": "SuperSonic Al",
         "desc": "Discord presence",
         "link": "https://www.youtube.com/@supersonical8770/"
+      },
+      {
+        "name": "SquidBowl",
+        "icon": "squid",
+        "desc": "Organizer",
+        "link": "https://www.youtube.com/@squidbowl"
       }
     ]
   },

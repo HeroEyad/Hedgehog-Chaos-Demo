@@ -219,7 +219,7 @@ class MainMenuState extends MusicBeatState
 								switch (daChoice)
 								{
 									case 'story_mode':
-										PlayState.storyPlaylist = ["Step-Up", "Breakfast", "Chilidogs", "Huh-Neat", "Really-3D", "Sage"];
+										PlayState.storyPlaylist = ["Step-Up", "Breakfast", "Chilidogs", "Huh-Neat", "Really-3D"];
 										PlayState.isStoryMode = true;
 										PlayState.storyWeek =0;
 		
