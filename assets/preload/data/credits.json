@@ -13,30 +13,12 @@
         "icon": "Michelle",
         "desc": "Co-director",
         "link": "https://twitter.com/MichellePVZ"
-      },
-      {
-        "name": "thastrangerguy",
-        "icon": "stranger",
-        "desc": "EX-Director",
-        "link": "https://twitter.com/thastrangeguy"
-      },
-      {
-        "name": "Gabe",
-        "icon": "Gabe",
-        "desc": "Ex-Co-Director",
-        "link": "https://twitter.com/gabe5003"
       }
     ]
 },
 {
     "title": "Artists + 3D Modelers",
     "members": [
-      {
-        "name": "thastrangerguy",
-        "icon": "stranger",
-        "desc": "Icons, background artist, menu designs, and spritesheets",
-        "link": "https://twitter.com/thastrangeguy"
-      },
       {
         "name": "Merritz",
         "icon": "Merritz",
@@ -137,12 +119,6 @@
         "icon": "flipes",
         "desc": "Artist for future updates",
         "link": "https://twitter.com/FlipeTheBased"
-      },
-      {
-        "name": "soap_shoe",
-        "icon": "Soap_shoe",
-        "desc": "Responsible for everything related to Sunky",
-        "link": "https://https://twitter.com/soap__shoe"
       },
       {
         "name": "Jbendett",
@@ -363,7 +339,7 @@
         "link": "https://twitter.com/HeroEyad_"
       },
       {
-        "name": "Nait",
+        "name": "Nati0001",
         "icon": "Nait",
         "desc": "FreePlay, credit menu, title screen",
         "link": "https://twitter.com/Nait0001"
