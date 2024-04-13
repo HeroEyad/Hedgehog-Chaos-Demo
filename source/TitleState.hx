@@ -683,8 +683,8 @@ class TitleState extends MusicBeatState
 					createCoolText(['Hedgehog Chaos by'], 15);
 				case 42:
 					// FlxG.random.getObject(getIntroTextShit());
-					addMoreText('Stranger', 15);
 					addMoreText('HeroEyad', 15);
+					addMoreText('SuperSonic Al', 15);
 					addMoreText('Michelle', 15);	
 				case 48:
 					deleteCoolText();				
