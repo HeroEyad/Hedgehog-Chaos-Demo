@@ -28,7 +28,7 @@
       {
         "name": "Merritz",
         "icon": "Merritz",
-        "desc": "Created almost all of chillidogs sprites and animated yeti for future updates",
+        "desc": "Created almost all of chillidogs sprites",
         "link": "https://twitter.com/Not_Merritz"
       },
       {
@@ -121,12 +121,6 @@
         "link": "https://twitter.com/the_awesome0442"
       },
       {
-        "name": "Flipethebased",
-        "icon": "flipes",
-        "desc": "Artist for future updates",
-        "link": "https://twitter.com/FlipeTheBased"
-      },
-      {
         "name": "Jbendett",
         "icon": "Jbendett",
         "desc": "Concept artist",
@@ -190,18 +184,6 @@
         "icon": "Stick-pi",
         "desc": "Menu art and concept artist",
         "link": "https://twitter.com/stick_pi"
-      },
-      {
-        "name": "MS.Malhare",
-        "icon": "ms.malhare",
-        "desc": "3D artist for future updates",
-        "link": "https://twitter.com/Ms_Malhare"
-      },
-      {
-        "name": "MR.Penguin",
-        "icon": "Mr.Penguin",
-        "desc": "Pixel artist for future updates",
-        "link": "https://twitter.com/IceyPenguin3"
       },
       {
         "name": "Ema",
@@ -275,12 +257,6 @@
         "link": "https://twitter.com/CrackerSnapDev"
       },
       {
-        "name": "Supahsta",
-        "icon": "Supahsta_",
-        "desc": "Pixel artist for future updates",
-        "link": "https://twitter.com/Mari0haraZONE"
-      },
-      {
         "name": "Yosibu",
         "icon": "Yosibu",
         "desc": "HUD artist, icon artist, and charter",
@@ -320,12 +296,6 @@
         "icon": "Alegrai",
         "desc": "Animator and musician",
         "link": "https://twitter.com/Alegrai2"
-      },
-      {
-        "name": "Ruby",
-        "icon": "Ruby_",
-        "desc": "Animator for future updates",
-        "link": "https://twitter.com/ruby151106"
       },
       {
         "name": "Pudim Abestado",
@@ -416,34 +386,10 @@
         "link": "https://twitter.com/gabe5003"
       },
       {
-        "name": "T-bar",
-        "icon": "T-bar",
-        "desc": "Charter for future updates",
-        "link": "https://twitter.com/tbar27862"
-      },
-      {
-        "name": "Kapsfox",
-        "icon": "Kapsfox",
-        "desc": "Charter for future updates",
-        "link": "https://www.youtube.com/channel/UCyWDty00-PIXSStbgdOWVJQ"
-      },
-      {
-        "name": "Timson",
-        "icon": "Timson",
-        "desc": "Charter for Old Really 3D",
-        "link": "https://twitter.com/Timson3037"
-      },
-      {
         "name": "Synthetic",
         "icon": "synthetic",
         "desc": "Charter for Really 3D",
         "link": "https://twitter.com/SynthetiC4P"
-      },
-      {
-        "name": "Kev",
-        "icon": "kev",
-        "desc": "Charter for future updates",
-        "link": "https://youtube.com/@kevenkaioo4656"
       },
       {
         "name": "Waffle",
@@ -452,22 +398,10 @@
         "link": "https://twitter.com/Wafflehehehaha"
       },
       {
-        "name": "Danielodimension",
-        "icon": "daniel",
-        "desc": "Charter for future updates",
-        "link": "https://twitter.com/DrDanielo2 "
-      },
-      {
         "name": "nightmarexonix",
         "icon": "Nightmare_PirateSonic_Icon_2",
         "desc": "Charter for Breakfast",
         "link": "https://twitter.com/NPirateSonic"
-      },
-      {
-        "name": "Dudugd",
-        "icon": "DuduGD2023",
-        "desc": "Charter for future updates",
-        "link": "https://twitter.com/DuduGD2023 "
       }
     ]
   },
@@ -499,34 +433,16 @@
         "link": "https://twitter.com/FrenchPPashn_Nz"
       },
       {
-        "name": "Souless",
-        "icon": "Cysaber",
-        "desc": "Musician for future updates",
-        "link": "https://twitter.com/soulles_sord"
-      },
-      {
         "name": "River347",
         "icon": "River347",
         "desc": "Contributed to Sage",
         "link": "https://twitter.com/River_347"
       },
       {
-        "name": "Flashmighty",
-        "icon": "flashmighty",
-        "desc": "Composer for future updates",
-        "link": "https://twitter.com/FlashMightyGam2"
-      },
-      {
         "name": "Anonymously_present",
         "icon": "Anonymously present",
         "desc": "Musician for FreePlay",
         "link": "https://twitter.com/ThatGuyWhoDoes4"
-      },
-      {
-        "name": "Thefungang",
-        "icon": "Thefungang123",
-        "desc": "Musician for future updates",
-        "link": "https://twitter.com/Thefungang123"
       },
       {
         "name": "Skullybou",
@@ -539,24 +455,12 @@
         "icon": "Dupe",
         "desc": "Musician of the title screen song",
         "link": "https://twitter.com/Duplep0ster"
-      },
-      {
-        "name": "Danielodimension",
-        "icon": "daniel",
-        "desc": "Musician for future updates",
-        "link": "https://twitter.com/DrDanielo2"
       }
     ]
   },
   {
     "title": "Voice Actors",
     "members": [
-      {
-        "name": "Waffle",
-        "icon": "waffle",
-        "desc": "Voice actor for a future update",
-        "link": "https://twitter.com/Wafflehehehaha"
-      },
       {
         "name": "Enderprime",
         "icon": "enderman",
@@ -587,28 +491,10 @@
     "title": "Chromatic Scalers",
     "members": [
       {
-        "name": "Zuri_16",
-        "icon": "zuri",
-        "desc": "Chromatic scaler for future updates",
-        "link": "https://twitter.com/BitsZuri16"
-      },
-      {
         "name": "Souless",
         "icon": "Cysaber",
         "desc": "Chromatic scaler for Chillidogs",
         "link": "https://twitter.com/soulles_sord"
-      },
-      {
-        "name": "Alegrai",
-        "icon": "Alegrai",
-        "desc": "Chromatic scaler for future updates",
-        "link": "https://twitter.com/Alegrai2"
-      },
-      {
-        "name": "Shagster",
-        "icon": "Shagster",
-        "desc": "Chromatic scaler for future updates",
-        "link": "https://twitter.com/ShagGoated"
       },
       {
         "name": "Anonymously_present",
@@ -661,12 +547,6 @@
         "icon": "Vannisaturn",
         "desc": "Contributed loading screen, executable image, and BF design",
         "link": "https://www.youtube.com/watch?v=BbeeuzU5Qc8"
-      },
-      {
-        "name": "Lucky",
-        "icon": "Lucky_",
-        "desc": "Provided sprites for future updates",
-        "link": "https://twitter.com/Iam3rdTimeLucky"
       },
       {
         "name": "The Chipu",
