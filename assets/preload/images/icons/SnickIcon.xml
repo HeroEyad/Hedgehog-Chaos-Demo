@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SnickIcon.png">
+	<!-- Made using Maru Aseprite JSON to XML converter -->
+	<SubTexture name="00000" x="0" y="0" width="47" height="16"/>
+	<SubTexture name="00001" x="47" y="0" width="47" height="16"/>
+	<SubTexture name="00002" x="94" y="0" width="47" height="16"/>
+	<SubTexture name="00003" x="141" y="0" width="47" height="16"/>
+	<SubTexture name="00004" x="188" y="0" width="47" height="16"/>
+	<SubTexture name="00005" x="0" y="16" width="47" height="16"/>
+	<SubTexture name="00006" x="47" y="16" width="47" height="16"/>
+	<SubTexture name="00007" x="94" y="16" width="47" height="16"/>
+	<SubTexture name="00008" x="141" y="16" width="47" height="16"/>
+	<SubTexture name="00009" x="188" y="16" width="47" height="16"/>
+	<SubTexture name="00010" x="0" y="32" width="47" height="16"/>
+	<SubTexture name="00011" x="47" y="32" width="47" height="16"/>
+	<SubTexture name="00012" x="94" y="32" width="47" height="16"/>
+	<SubTexture name="00013" x="141" y="32" width="47" height="16"/>
+	<SubTexture name="00014" x="188" y="32" width="47" height="16"/>
+	<SubTexture name="00015" x="0" y="48" width="47" height="16"/>
+	<SubTexture name="00016" x="47" y="48" width="47" height="16"/>
+</TextureAtlas>

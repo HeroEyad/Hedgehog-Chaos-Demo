@@ -1,4 +1,5 @@
 --you shouldn't touch anything bro
+-- shut the fuck up.
 
 local curSelected = 0
 
