@@ -61,6 +61,8 @@ import FunkinLua;
 import DialogueBoxPsych;
 import Conductor.Rating;
 
+import lime.app.Application;
+
 #if !flash 
 import flixel.addons.display.FlxRuntimeShader;
 import openfl.filters.ShaderFilter;
@@ -123,6 +125,8 @@ class PlayState extends MusicBeatState
 	public var modchartTexts:Map<String, ModchartText> = new Map();
 	public var modchartSaves:Map<String, FlxSave> = new Map();
 	#end
+
+	var currentBeat:Float = (Conductor.songPosition / 1000)*(Conductor.bpm/60);
 
 	public var BF_X:Float = 770;
 	public var BF_Y:Float = 100;
@@ -2856,6 +2860,13 @@ class PlayState extends MusicBeatState
 
 	override public function update(elapsed:Float)
 	{
+		switch(SONG.song.toLowerCase()) {
+			case "Sage":
+				switch(curStep) {
+					case 1151:
+					window(Math.round(24 * Math.sin(currentBeat * Math.PI) + 327), Math.round(24 * Math.sin(currentBeat * 3) + 160));
+				}
+		}
 		/*if (FlxG.keys.justPressed.NINE)
 		{
 			iconP1.swapOldIcon();
@@ -5329,6 +5340,12 @@ else
 		return null;
 	}
 	#end
+
+	function window(x:Int, y:Int)
+	{
+		Application.current.window.x = x;
+		Application.current.window.y = y;
+	}
 
 	var curLight:Int = -1;
 	var curLightEvent:Int = -1;

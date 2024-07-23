@@ -1,7 +1,19 @@
 function onCreate()
 	makeLuaSprite('background', 'Sage_Bg', 100, 440)
-    scaleObject('background', 4.2, 4.2);
+    scaleObject('background', 4.3, 4.3);
     addLuaSprite('background', false)
+
+    makeLuaSprite('someNew', 'someNew')
+    screenCenter("someNew", 'xy')
+    scaleObject('someNew', 45, 45)
+    setObjectCamera("someNew", 'game')
+    setProperty('someNew.alpha', 0)
+    addLuaSprite("someNew", true)
+
+    makeLuaSprite('sagebar', 'Sage-healthbar', 300, 630)
+    scaleObject('sagebar', 2, 2);
+    setObjectCamera('sagebar', 'other')
+    addLuaSprite('sagebar', true)
 
     makeAnimatedLuaSprite('gf', 'GfTv', 0, 0);
 	addAnimationByPrefix('gf', 'Idle', 'iddle', 24, true);
@@ -11,38 +23,36 @@ function onCreate()
 	objectPlayAnimation('gf','Idle',true)
     addLuaSprite('gf', true)
 
-    makeAnimatedLuaSprite('peppino', 'Peppino sage animations', 1600, 200);
-	addAnimationByPrefix('peppino', 'Idle', 'idle 1', 24, true);
-    addAnimationByPrefix('peppino', 'huh', 'idle 2', 24, true);
-	objectPlayAnimation('peppino','Idle',true)
-    addLuaSprite('peppino', false)
+end
 
-    makeAnimatedLuaSprite('snickicon', 'SnickIcon', 540, 640);
-    scaleObject('snickicon', 2, 2);
-	addAnimationByPrefix('snickicon', 'Idle', '', 24, true);
-	objectPlayAnimation('snickicon','Idle',true)
-    setObjectCamera('snickicon', 'hud')
-    addLuaSprite('snickicon', true)
-
-    makeAnimatedLuaSprite('bficon', 'BfIcon',  640, 640);
-    scaleObject('bficon', 2, 2);
-	addAnimationByPrefix('bficon', 'Idle', '', 24, true);
-	objectPlayAnimation('bficon','Idle',true)
-    setObjectCamera('bficon', 'hud')
-    addLuaSprite('bficon', true)
+function onStepHit() 
+    if curStep == 896 then       
+        doTweenAlpha('disappear', 'camHUD', 0, 1, linear)
+        doTweenAlpha("someNew", "someNew", 1, 1, linear)
+        doTweenAlpha("badboysbadboys", "sagebar", 0, 1, linear)
+    end
+        
+    if curStep == 1152 then
+        cameraFlash('game', 'FFFFFF', 1, true)
+        setProperty('someNew.alpha', 0)
+        setProperty('sagebar.alpha', 1) -- ok firemaster why the fuck did you set the bar on the other cam im losing myself
+        setProperty('background.alpha', 0.7)
+        setCharacterY("dad", 690)
+    end
 end
 
 function onUpdatePost()
-    cameraSetTarget('dad')
-    P1Mult = getProperty('healthBar.x') + ((getProperty('healthBar.width') * getProperty('healthBar.percent') * 0.01) + (150 * getProperty('iconP1.scale.x') - 150) / 2 - 26)
-	P2Mult = getProperty('healthBar.x') + ((getProperty('healthBar.width') * getProperty('healthBar.percent') * 0.01) - (150 * getProperty('iconP2.scale.x')) / 2 - 26 * 2)
-    for i=0,3 do
-        setPropertyFromGroup('opponentStrums', i, 'alpha', 0)
-        setPropertyFromGroup('opponentStrums', i, 'x', -9999)
-    end
-    setProperty('iconP2.visible', false)
-    setProperty('iconP1.visible', false)
-    setProperty('scoreTxt.x', 9999)
-    setProperty('bficon.x',P1Mult - 110)
-    setProperty('snickicon.x',P2Mult + 110)
+cameraSetTarget('dad')
+setProperty('healthBarBG.visible', false)
+setProperty('healthBar.scale.x', 1.05)
+setProperty('healthBar.scale.y', 3)
+for i=0,3 do
+    setPropertyFromGroup('opponentStrums', i, 'alpha', 0)
+    setPropertyFromGroup('opponentStrums', i, 'x', -9999)
+end
+setProperty('iconP2.visible', false)
+setProperty('iconP1.visible', false)
+setProperty('healthBar.x', 329)
+setProperty('healthBar.y', 650)
+setProperty('scoreTxt.x', 9999)
 end
