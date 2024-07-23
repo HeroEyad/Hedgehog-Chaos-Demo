@@ -61,7 +61,7 @@ class FreeplayState extends MusicBeatState
 	var redSpines:FlxBackdrop;
 	var textSong:Array<Float> = [];
 
-	var rankSprite:RankMechanic;
+	//var rankSprite:RankMechanic;
 
 	override function create()
 	{
@@ -144,10 +144,11 @@ class FreeplayState extends MusicBeatState
 
 		FlxTween.tween(arrow, {y: arrow.y + xArrow}, 1,{type: PINGPONG});
 
-		rankSprite = new RankMechanic(950,300,0.05);
+		/*rankSprite = new RankMechanic(950,300,0.05);
 		rankSprite.updateHitbox();
 		rankSprite.alpha = 0;
-		add(rankSprite);
+		add(rankSprite);*/
+
 
 		var bar:FlxBackdrop = new FlxBackdrop(Paths.image('Freeplay/Black_bar'),X);
 		// bar.screenCenter(X);
@@ -291,7 +292,7 @@ class FreeplayState extends MusicBeatState
 			ratingSplit[1] += '0';
 		}
 
-		scoreText.text = 'SCORE: \n' + lerpScore + '\n' + '(' + ratingSplit.join('.') + '%)' + '\n\nRANK:';
+		scoreText.text = 'SCORE: \n' + lerpScore + '\n' + '(' + ratingSplit.join('.') + '%)' + '\n\nPRESS L\nFOR LEADERBOARD';
 		positionHighscore();
 
 		var upP = controls.UI_UP_P;
@@ -498,11 +499,8 @@ class FreeplayState extends MusicBeatState
 					intendedRating = Highscore.getRating(songs[curSelected].songName, curDifficulty); #end
 				}});
 
-				var rankScore:String = Highscore.getRank(songs[curSelected].songName, curDifficulty);
-				if (rankScore == null) rankScore = 'Null';
-				rankSprite.changeRank(rankScore);
-				rankSprite.angle = 90;
-				scoreTween[1] = FlxTween.tween(rankSprite, {alpha:1, angle: 0}, timeTween, {ease:FlxEase.circOut,startDelay:timeTween});
+
+				//scoreTween[1] = FlxTween.tween(rankSprite, {alpha:1, angle: 0}, timeTween, {ease:FlxEase.circOut,startDelay:timeTween});
 			}});
 			FlxTween.tween(arrow, {alpha:0}, timeTween - 0.2);
 
@@ -521,7 +519,7 @@ class FreeplayState extends MusicBeatState
 			spaceDiff = 20;
 			FlxTween.tween(diffText, {alpha: 0, y: diffText.height - spaceDiff}, timeTween, {ease: FlxEase.circOut});
 			FlxTween.tween(scoreText, {alpha: 0, y: (diffText.height - spaceDiff)-120}, timeTween, {ease: FlxEase.circOut});
-			FlxTween.tween(rankSprite, {alpha:0,angle: 90},timeTween-0.25,{ease: FlxEase.circOut});
+			//FlxTween.tween(rankSprite, {alpha:0,angle: 90},timeTween-0.25,{ease: FlxEase.circOut});
 
 			#if !switch
 				intendedScore = 0;
