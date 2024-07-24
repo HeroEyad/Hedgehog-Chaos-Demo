@@ -43,6 +43,8 @@ class MainMenuState extends MusicBeatState
 	var camFollowPos:FlxObject;
 	var debugKeys:Array<FlxKey>;
 
+	var user:String = LoginScreen.currentUsername;
+
 	override function create()
 	{
 		#if MODS_ALLOWED
@@ -114,6 +116,10 @@ class MainMenuState extends MusicBeatState
 		}
 
 
+		var versionShit:FlxText = new FlxText(12, FlxG.height - 64, 0, "Welcome: " + user, 12);
+		versionShit.scrollFactor.set();
+		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		add(versionShit);
 		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);

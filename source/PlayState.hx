@@ -21,6 +21,7 @@ import flixel.addons.effects.FlxTrailArea;
 import flixel.addons.effects.chainable.FlxEffectSprite;
 import flixel.addons.effects.chainable.FlxWaveEffect;
 import flixel.addons.transition.FlxTransitionableState;
+import flixel.addons.api.FlxGameJolt;
 import flixel.graphics.atlas.FlxAtlas;
 import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.group.FlxGroup.FlxTypedGroup;
@@ -3953,6 +3954,13 @@ else
 				var percent:Float = ratingPercent;
 				if(Math.isNaN(percent)) percent = 0;
 				Highscore.saveScore(SONG.song, songScore, storyDifficulty, percent);
+				if (SONG.song == "chilidogs") {
+					FlxGameJolt.addScore(Std.string(songScore), Std.parseFloat(Std.string(songScore)), 925210, false, Std.string(percent));
+				} else if (SONG.song == "breakfast") {
+					FlxGameJolt.addScore(Std.string(songScore), Std.parseFloat(Std.string(songScore)), 925215, false, Std.string(percent));
+				} else if (SONG.song == "sage") {
+					FlxGameJolt.addScore(Std.string(songScore), Std.parseFloat(Std.string(songScore)), 925217, false, Std.string(percent));
+				}
 				#end
 			}
 			playbackRate = 1;
