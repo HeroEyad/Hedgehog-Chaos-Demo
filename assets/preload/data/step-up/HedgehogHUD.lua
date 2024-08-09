@@ -60,21 +60,14 @@ function onCreatePost()
     setObjectCamera('misses2', 'hud')
 
     if downscroll then
-        setProperty('HB.y', 20)
+        setProperty('HB.y', -182.5)
         setProperty('scoreTxt.x', -1350)
         setProperty('scoreTxt.y', 532)
     end
 
     if middlescroll then
-        setProperty('HB.x', 850)
-		setProperty('HB.y', 300)
-		setProperty('healthBar.y', 400)
-		setProperty('HB.angle', 90)
-		setProperty('healthBar.scale.y', 4.9)
-		setProperty('healthBar.scale.x', 0.8)
-		scaleObject('HB', 0.7, 0.7)
-		setProperty('healthBar.angle', 90)
-		setProperty('healthBar.x', 890)
+        setProperty('HB.x', 195)
+        setProperty('healthBar.x', 345)
         setProperty('scoreTxt.x', -1350)
         setProperty('scoreTxt.y', 532)
     end
@@ -93,21 +86,17 @@ end
 local currentAccuracyRating = 0
 
 function onUpdatePost()
-    setProperty('iconP2.x', 370)
-    setProperty('iconP2.y', 580)
-    setProperty('iconP1.x', 1050)
-    setProperty('iconP1.y', 580)
     setTextString('score2', getProperty('songScore'))
     setTextString('combo2', getProperty('songMisses'))
 
     if middlescroll then
-        setProperty('iconP1.x', 1125)
-        setProperty('iconP2.x', 1125)
+        setProperty('iconP1.x', 925)
+        setProperty('iconP2.x', 235)
     end
 
     if downscroll then
-        setProperty('iconP1.y', 10)
-        setProperty('iconP2.y', 10)
+        setProperty('iconP1.y', 0)
+        setProperty('iconP2.y', -10)
     end
     
     -- Accuracy Rating System --
@@ -156,12 +145,12 @@ function onUpdatePost()
 end
 
 function onCreate()
-    makeLuaSprite('HB', 'someNewHealthbar', 350, 579)
+    makeLuaSprite('HB', 'someNewSanic', 460, 550)
     setObjectCamera('HB', 'hud')
     setScrollFactor('HB', 0.9, 0.9)
-    scaleObject('HB', 0.9, 0.8)
+    scaleObject('HB', 1.5, 1.5)
 
-    scaleObject('healthBar', 1, 4.5)
+    scaleObject('healthBar', 1.49, 2.5)
 
     makeLuaSprite('AccuracyBar', 'HUD/Accuracy bar', -500, 479) --X = -10
     setObjectCamera('AccuracyBar', 'hud')
@@ -170,26 +159,6 @@ function onCreate()
 
     addLuaSprite('AccuracyBar', true)
 
-    makeLuaSprite('Life', 'HUD/Life counter', 10, 590)
-    setObjectCamera('Life', 'hud')
-    setScrollFactor('Life', 0.9, 0.9)
-    scaleObject('Life', 0.18, 0.18)
-    addLuaSprite('Life', true)
-
-    makeLuaSprite('LifeIcon', 'icons/LifeCounterIcons/bf', 26, 609)
-    setObjectCamera('LifeIcon', 'hud')
-    setScrollFactor('LifeIcon', 0.9, 0.9)
-    scaleObject('LifeIcon', 0.64, 0.64)
-    addLuaSprite('LifeIcon', true)
-
-    if songName == 'breakfast' then
-        removeLuaSprite('LifeIcon', true)
-        makeLuaSprite('LifeIcon', 'icons/LifeCounterIcons/sunkybf', 26, 606)
-        setObjectCamera('LifeIcon', 'hud')
-        setScrollFactor('LifeIcon', 0.9, 0.9)
-        scaleObject('LifeIcon', 0.64, 0.64)
-        addLuaSprite('LifeIcon', true)
-    end
 
     makeLuaText('AccuracyText', getProperty('ratingPercent'), 300, -500, 518) --X = 90
     setObjectCamera('AccuracyText', 'hud')

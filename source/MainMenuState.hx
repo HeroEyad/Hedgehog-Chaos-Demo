@@ -101,10 +101,11 @@ class MainMenuState extends MusicBeatState
 			var menuItem:FlxSprite = new FlxSprite(0, (i * 180)  + offset);
 			menuItem.scale.x = scale;
 			menuItem.scale.y = scale;
-			menuItem.frames = Paths.getSparrowAtlas('mainmenu/hc_' + optionShit[i]);
+			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_' + optionShit[i]);
 			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
 			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
 			menuItem.animation.play('idle');
+			menuItem.y -= 100;
 			menuItem.ID = i;
 			menuItem.screenCenter(X);
 			menuItems.add(menuItem);
@@ -116,10 +117,16 @@ class MainMenuState extends MusicBeatState
 		}
 
 
-		var versionShit:FlxText = new FlxText(12, FlxG.height - 64, 0, "Welcome: " + user, 12);
-		versionShit.scrollFactor.set();
-		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		add(versionShit);
+		var versionShits:FlxText = new FlxText(12, FlxG.height - 64, 0, "", 12);
+		versionShits.scrollFactor.set();
+		versionShits.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		
+		if (user == null) {
+			versionShits.text = "PRESS P TO LOGIN WITH GAMEJOLT";
+		} else {
+			versionShits.text = "Welcome: " + user;
+		}		
+		add(versionShits);
 		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
@@ -167,7 +174,6 @@ class MainMenuState extends MusicBeatState
 		if (FlxG.keys.justPressed.P) {
 			MusicBeatState.switchState(new LoginScreen());
 		}
-
 		if (FlxG.sound.music.volume < 0.8)
 		{
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
@@ -233,15 +239,13 @@ class MainMenuState extends MusicBeatState
 										PlayState.storyPlaylist = ["Step-Up", "Breakfast", "Chilidogs", "Huh-Neat", "Really-3D"];
 										PlayState.isStoryMode = true;
 										PlayState.storyWeek =0;
-		
-										var diffic = "-hard";
-		
+				
 										PlayState.storyDifficulty = 0;
 			
-										PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0].toLowerCase() + diffic, PlayState.storyPlaylist[0].toLowerCase());
+										PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0].toLowerCase(), PlayState.storyPlaylist[0].toLowerCase());
 										PlayState.campaignScore = 0;
 										PlayState.campaignMisses = 0;
-										CoolUtil.difficulties = ["Hard"];
+										CoolUtil.difficulties = ["Normal"];
 										WeekData.reloadWeekFiles(true);
 										LoadingState.loadAndSwitchState(new PlayState());
 									case 'freeplay':

@@ -15,6 +15,10 @@ class LoginScreen extends MusicBeatState {
     private var statusText:FlxText;
     private var logoutButton:FlxButton;
     private var loginButton:FlxButton;
+    private var tokenButton:FlxButton;
+    private var usernameLabel:FlxText;
+    private var tokenLabel:FlxText;
+    private var welcomeText:FlxText;
 
     
     public static var currentUsername:String;
@@ -31,35 +35,38 @@ class LoginScreen extends MusicBeatState {
         bg.antialiasing = ClientPrefs.globalAntialiasing;
         add(bg);
 
-        // Welcome Text
-        var welcomeText = new FlxText(0, 50, FlxG.width, "Welcome!");
-        welcomeText.setFormat(null, 24, FlxColor.WHITE, "center");
+        welcomeText = new FlxText(0, 50, FlxG.width, "Welcome!");
+        welcomeText.setFormat(Paths.font('sonic2.ttf'), 24, FlxColor.WHITE, "center");
         add(welcomeText);
 
-        // Username label
-        var usernameLabel = new FlxText(0, 200, FlxG.width, "Username:");
-        usernameLabel.setFormat(null, 16, FlxColor.WHITE, "center");
+        usernameLabel = new FlxText(0, 200, FlxG.width, "Username:");
+        usernameLabel.setFormat(Paths.font('sonic2.ttf'), 16, FlxColor.WHITE, "center");
         add(usernameLabel);
 
         usernameInput = new FlxInputText(0, 230, 400, "");
         usernameInput.screenCenter(X);
-        usernameInput.setFormat(null, 16, FlxColor.BLACK, "center");
+        usernameInput.setFormat(Paths.font('sonic2.ttf'), 16, FlxColor.BLACK, "center");
         add(usernameInput);
 
-        // Token label
-        var tokenLabel = new FlxText(0, 300, FlxG.width, "Token:");
-        tokenLabel.setFormat(null, 16, FlxColor.WHITE, "center");
+        tokenLabel = new FlxText(0, 300, FlxG.width, "Game Token:");
+        tokenLabel.setFormat(Paths.font('sonic2.ttf'), 16, FlxColor.WHITE, "center");
         add(tokenLabel);
 
         tokenInput = new FlxInputText(0, 330, 400, "");
         tokenInput.screenCenter(X);
-        tokenInput.setFormat(null, 16, FlxColor.BLACK, "center");
+        tokenInput.setFormat(Paths.font('sonic2.ttf'), 16, FlxColor.BLACK, "center");
         add(tokenInput);
 
         loginButton = new FlxButton(0, 400, "Login", onLoginClicked);
         loginButton.screenCenter(X);
         loginButton.scale.set(1.5, 1.5);
         add(loginButton);
+
+        tokenButton = new FlxButton(0, 400, "How to Get Token", onToken);
+        tokenButton.screenCenter(X);
+        tokenButton.x += 100;
+        tokenButton.scale.set(1.5, 1.5);
+        add(tokenButton);
 
         logoutButton = new FlxButton(0, 470, "Logout", onLogoutClicked);
         logoutButton.screenCenter(X);
@@ -68,12 +75,16 @@ class LoginScreen extends MusicBeatState {
         add(logoutButton);
 
         statusText = new FlxText(0, 530, FlxG.width, "");
-        statusText.setFormat(null, 16, FlxColor.WHITE, "center");
+        statusText.setFormat(Paths.font('sonic2.ttf'), 16, FlxColor.WHITE, "center");
         add(statusText);
 
         FlxGameJolt.init(913463, 'be19cd1cd9c5c164b9b2aa8f973f0701');
 
         super.create();
+    }
+
+    private function onToken():Void {
+        CoolUtil.browserLoad('https://www.youtube.com/watch?v=T5-x7kAGGnE');
     }
 
     private function onLoginClicked():Void {
@@ -84,9 +95,12 @@ class LoginScreen extends MusicBeatState {
             if (success) {
                 currentUsername = username;
                 currentToken = token;
+                usernameInput.visible = false;
+                tokenInput.visible = false;
                 statusText.text = "Login successful!";
                 logoutButton.visible = true;
                 loginButton.visible = false;
+                tokenButton.visible = false;
                 loggedIn = true;
 
             } else {
@@ -99,6 +113,10 @@ class LoginScreen extends MusicBeatState {
     private function onLogoutClicked():Void {
         statusText.text = "Logged out!";
         logoutButton.visible = false;
+        loginButton.visible = true;
+        tokenButton.visible = true;
+        usernameInput.visible = true;
+        tokenInput.visible = true;
         currentUsername = null;
         currentToken = null;
         loggedIn = false;
