@@ -269,20 +269,26 @@
       {
         "name": "HeroEyad",
         "icon": "eyad",
-        "desc": "Lead coder, Main menu, Gamejolt Support, Credits menu, and Freeplay",
+        "desc": "Lead Coder, Events, Gamejolt Support, Credits menu, and Freeplay",
         "link": "https://twitter.com/HeroEyad_"
       },
       {
         "name": "Nati0001",
         "icon": "Nait",
-        "desc": "FreePlay, credit menu, title screen",
+        "desc": "Freeplay, credit menu, title screen",
         "link": "https://twitter.com/Nait0001"
       },
       {
         "name": "Michelle",
         "icon": "Michelle",
-        "desc": "Menu Layout and HUD",
+        "desc": "Menu Layout and Bug Fixes!",
         "link": "https://twitter.com/MichellePVZ"
+      },
+      {
+        "name": "T-Bar",
+        "icon": "T-bar",
+        "desc": "HUD",
+        "link": "https://twitter.com/tbar27862"
       },
       {
         "name": "SuperSonic Al",
