@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GfTv.png">
+	<!-- Made using Maru Aseprite JSON to XML converter -->
+	<SubTexture name="00000" x="0" y="0" width="103" height="97"/>
+	<SubTexture name="iddle00000" x="103" y="0" width="103" height="97"/>
+	<SubTexture name="iddle00001" x="206" y="0" width="103" height="97"/>
+	<SubTexture name="iddle00002" x="0" y="0" width="103" height="97"/>
+	<SubTexture name="hearth00000" x="309" y="0" width="103" height="97"/>
+	<SubTexture name="hearth00001" x="412" y="0" width="103" height="97"/>
+	<SubTexture name="hearth00002" x="0" y="97" width="103" height="97"/>
+	<SubTexture name="hearth00003" x="103" y="97" width="103" height="97"/>
+	<SubTexture name="hearth00004" x="206" y="97" width="103" height="97"/>
+	<SubTexture name="hearth00005" x="309" y="97" width="103" height="97"/>
+	<SubTexture name="hearth00006" x="412" y="97" width="103" height="97"/>
+	<SubTexture name="hearth00007" x="0" y="194" width="103" height="97"/>
+	<SubTexture name="hearth00008" x="103" y="194" width="103" height="97"/>
+	<SubTexture name="hearth00009" x="206" y="194" width="103" height="97"/>
+	<SubTexture name="hearth00010" x="309" y="194" width="103" height="97"/>
+	<SubTexture name="hearth00011" x="412" y="194" width="103" height="97"/>
+	<SubTexture name="hearth00012" x="309" y="194" width="103" height="97"/>
+	<SubTexture name="hearth00013" x="0" y="291" width="103" height="97"/>
+	<SubTexture name="hearth00014" x="103" y="291" width="103" height="97"/>
+	<SubTexture name="hearth00015" x="206" y="291" width="103" height="97"/>
+	<SubTexture name="hearth00016" x="0" y="291" width="103" height="97"/>
+	<SubTexture name="hearth00017" x="103" y="291" width="103" height="97"/>
+	<SubTexture name="hearth00018" x="206" y="291" width="103" height="97"/>
+	<SubTexture name="hearth00019" x="0" y="291" width="103" height="97"/>
+	<SubTexture name="hearth00020" x="103" y="291" width="103" height="97"/>
+	<SubTexture name="hearth00021" x="206" y="291" width="103" height="97"/>
+	<SubTexture name="hearth00022" x="0" y="291" width="103" height="97"/>
+	<SubTexture name="hearth00023" x="103" y="291" width="103" height="97"/>
+	<SubTexture name="hearth00024" x="206" y="291" width="103" height="97"/>
+	<SubTexture name="hearth00025" x="0" y="291" width="103" height="97"/>
+	<SubTexture name="hearth00026" x="103" y="291" width="103" height="97"/>
+	<SubTexture name="hearth00027" x="206" y="291" width="103" height="97"/>
+	<SubTexture name="hearth00028" x="0" y="291" width="103" height="97"/>
+	<SubTexture name="hearth00029" x="103" y="291" width="103" height="97"/>
+	<SubTexture name="hearth00030" x="206" y="291" width="103" height="97"/>
+	<SubTexture name="hearth00031" x="103" y="194" width="103" height="97"/>
+	<SubTexture name="hearth00032" x="0" y="194" width="103" height="97"/>
+	<SubTexture name="hearth00033" x="412" y="97" width="103" height="97"/>
+	<SubTexture name="hearth00034" x="309" y="97" width="103" height="97"/>
+	<SubTexture name="hearth00035" x="206" y="97" width="103" height="97"/>
+	<SubTexture name="hearth00036" x="103" y="97" width="103" height="97"/>
+	<SubTexture name="hearth00037" x="0" y="97" width="103" height="97"/>
+	<SubTexture name="hearth00038" x="412" y="0" width="103" height="97"/>
+	<SubTexture name="hearth00039" x="309" y="0" width="103" height="97"/>
+	<SubTexture name="hearth00040" x="206" y="0" width="103" height="97"/>
+	<SubTexture name="hearth00041" x="103" y="0" width="103" height="97"/>
+	<SubTexture name="hearth00042" x="0" y="0" width="103" height="97"/>
+	<SubTexture name="hearth00043" x="103" y="0" width="103" height="97"/>
+	<SubTexture name="hearth00044" x="0" y="0" width="103" height="97"/>
+</TextureAtlas>

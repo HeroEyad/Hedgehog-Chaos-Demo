@@ -1,0 +1,111 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				128,
+				-3
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "idle new"
+		},
+		{
+			"offsets": [
+				252,
+				65
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "left"
+		},
+		{
+			"offsets": [
+				135,
+				-20
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "down"
+		},
+		{
+			"offsets": [
+				281,
+				146
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "up"
+		},
+		{
+			"offsets": [
+				70,
+				6
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "right"
+		},
+		{
+			"offsets": [
+				193,
+				-66
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "huhf",
+			"loop": false,
+			"name": "Huh fuck line"
+		},
+		{
+			"offsets": [
+				165,
+				19
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "huhn",
+			"loop": false,
+			"name": "Huh neat line"
+		},
+		{
+			"offsets": [
+				270,
+				32
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "get",
+			"loop": false,
+			"name": "get a taste line"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/dorkly sonic",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "dorkly",
+	"flip_x": false,
+	"healthbar_colors": [
+		31,
+		65,
+		191
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

@@ -270,6 +270,9 @@ class FreeplayState extends MusicBeatState
 	var holdSem:Bool = true;
 	override function update(elapsed:Float)
 	{
+		if (FlxG.keys.justPressed.L) {
+			CoolUtil.browserLoad('https://gamejolt.com/games/hedgehogchaos/913463/scores/925210/best');
+		}
 		if (FlxG.sound.music.volume < 0.7)
 		{
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;

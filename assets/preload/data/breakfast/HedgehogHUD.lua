@@ -39,7 +39,7 @@ function onCreatePost()
     setObjectCamera('time', 'hud')
     setObjectCamera('time2', 'hud')
 
-    quickLuaText('combo', 'COMBO', 0, getProperty('score.x'), getProperty('time.y') + 50, 60, 'HUD.ttf')
+    quickLuaText('combo', 'MISSES', 0, getProperty('score.x'), getProperty('time.y') + 50, 60, 'HUD.ttf')
     setTextColor('combo', '0xECE400')
     quickLuaText('combo2', '', 0, getProperty('score.x') + 200, getProperty('time.y') + 50, 60, 'HUD.ttf')
 
@@ -60,14 +60,21 @@ function onCreatePost()
     setObjectCamera('misses2', 'hud')
 
     if downscroll then
-        setProperty('HB.y', -182.5)
+        setProperty('HB.y', 20)
         setProperty('scoreTxt.x', -1350)
         setProperty('scoreTxt.y', 532)
     end
 
     if middlescroll then
-        setProperty('HB.x', 195)
-        setProperty('healthBar.x', 345)
+        setProperty('HB.x', 850)
+		setProperty('HB.y', 300)
+		setProperty('healthBar.y', 400)
+		setProperty('HB.angle', 90)
+		setProperty('healthBar.scale.y', 4.9)
+		setProperty('healthBar.scale.x', 0.8)
+		scaleObject('HB', 0.7, 0.7)
+		setProperty('healthBar.angle', 90)
+		setProperty('healthBar.x', 890)
         setProperty('scoreTxt.x', -1350)
         setProperty('scoreTxt.y', 532)
     end
@@ -86,22 +93,21 @@ end
 local currentAccuracyRating = 0
 
 function onUpdatePost()
-    setProperty('iconP2.x', 380)
-    setProperty('iconP2.y', 550)
-    setProperty('iconP1.x', 1080)
-    setProperty('iconP1.y', 560)
+    setProperty('iconP2.x', 370)
+    setProperty('iconP2.y', 580)
+    setProperty('iconP1.x', 1050)
+    setProperty('iconP1.y', 580)
     setTextString('score2', getProperty('songScore'))
-    setTextString('combo2', getProperty('combo'))
-    setTextString('misses2', getProperty('songMisses'))
+    setTextString('combo2', getProperty('songMisses'))
 
     if middlescroll then
-        setProperty('iconP1.x', 925)
-        setProperty('iconP2.x', 235)
+        setProperty('iconP1.x', 1125)
+        setProperty('iconP2.x', 1125)
     end
 
     if downscroll then
-        setProperty('iconP1.y', 0)
-        setProperty('iconP2.y', -10)
+        setProperty('iconP1.y', 10)
+        setProperty('iconP2.y', 10)
     end
     
     -- Accuracy Rating System --
@@ -150,10 +156,12 @@ function onUpdatePost()
 end
 
 function onCreate()
-    makeLuaSprite('HB', 'HUD/Healthbar', 350, 379)
+    makeLuaSprite('HB', 'someNewHealthbar', 350, 579)
     setObjectCamera('HB', 'hud')
     setScrollFactor('HB', 0.9, 0.9)
     scaleObject('HB', 0.9, 0.8)
+
+    scaleObject('healthBar', 1, 4.5)
 
     makeLuaSprite('AccuracyBar', 'HUD/Accuracy bar', -500, 479) --X = -10
     setObjectCamera('AccuracyBar', 'hud')

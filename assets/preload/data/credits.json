@@ -62,12 +62,6 @@
         "link": "https://www.youtube.com/channel/UCWQmaOB-Ub_O8sliw-scqEg"
       },
       {
-        "name": "Somedumbuser137",
-        "icon": "somedumbuser",
-        "desc": "Sprite artist (nightshift song)",
-        "link": "https://twitter.com/SomeDumbUser137"
-      },
-      {
         "name": "Hxtred",
         "icon": "Hxtred",
         "desc": "Pixel artist mainly for the barrel song, made xmls",
@@ -133,12 +127,6 @@
         "link": "https://twitter.com/MaddshuraSRB2"
       },
       {
-        "name": "Imnotsonic",
-        "icon": "placehold",
-        "desc": "Pixel artist for Snick (demo), also a general pixel artist",
-        "link": "https://twitter.com/Imnotsonic1"
-      },
-      {
         "name": "wabit",
         "icon": "placehold",
         "desc": "Menu art",
@@ -194,7 +182,7 @@
       {
         "name": "drowsys",
         "icon": "Clown",
-        "desc": "Contributed to almost everything for Sage",
+        "desc": "Contributed everything for Sage",
         "link": "https://twitter.com/DrowsysTwT"
       },
       {
@@ -311,7 +299,7 @@
       {
         "name": "HeroEyad",
         "icon": "eyad",
-        "desc": "Lead coder, Main menu, Gallery, Credits menu, and FreePlay",
+        "desc": "Lead coder, Main menu, Leaderboard, Credits menu, and Freeplay",
         "link": "https://twitter.com/HeroEyad_"
       },
       {
@@ -327,6 +315,7 @@
         "link": "https://twitter.com/MichellePVZ"
       },
       {
+<<<<<<< Updated upstream
         "name": "BigBoss",
         "icon": "placehold",
         "desc": "Pause menu (for now)",
@@ -337,6 +326,19 @@
         "icon": "DuduGD2023",
         "desc": "Results screen",
         "link": "https://twitter.com/DuduGD2023"
+=======
+        "name": "FireMaster01984",
+        "icon": "sofire",
+        "desc": "Support Coder in Gallery and Credits",
+        "link": "https://twitter.com/Firemaster01984"
+      },
+
+      {
+        "name": "T-Bar",
+        "icon": "T-bar",
+        "desc": "HUD",
+        "link": "https://twitter.com/tbar27862"
+>>>>>>> Stashed changes
       },
       {
         "name": "SuperSonic Al",

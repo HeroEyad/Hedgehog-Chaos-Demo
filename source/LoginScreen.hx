@@ -14,7 +14,12 @@ class LoginScreen extends MusicBeatState {
     private var tokenInput:FlxInputText;
     private var statusText:FlxText;
     private var logoutButton:FlxButton;
-    public static var currentUsername:String; // Variable to store the username
+    private var loginButton:FlxButton;
+
+    
+    public static var currentUsername:String;
+    public static var currentToken:String;
+    public static var loggedIn:Bool = false;
 
     override public function create():Void {
         FlxG.mouse.visible = true;
@@ -51,7 +56,7 @@ class LoginScreen extends MusicBeatState {
         tokenInput.setFormat(null, 16, FlxColor.BLACK, "center");
         add(tokenInput);
 
-        var loginButton = new FlxButton(0, 400, "Login", onLoginClicked);
+        loginButton = new FlxButton(0, 400, "Login", onLoginClicked);
         loginButton.screenCenter(X);
         loginButton.scale.set(1.5, 1.5);
         add(loginButton);
@@ -77,9 +82,12 @@ class LoginScreen extends MusicBeatState {
 
         FlxGameJolt.authUser(username, token, function(success:Bool) {
             if (success) {
-                currentUsername = username; // Store the username
+                currentUsername = username;
+                currentToken = token;
                 statusText.text = "Login successful!";
                 logoutButton.visible = true;
+                loginButton.visible = false;
+                loggedIn = true;
 
             } else {
                 statusText.text = "Login failed! (Check your token or your Internet Connection)";
@@ -91,7 +99,9 @@ class LoginScreen extends MusicBeatState {
     private function onLogoutClicked():Void {
         statusText.text = "Logged out!";
         logoutButton.visible = false;
-        currentUsername = null; // Clear the stored username
+        currentUsername = null;
+        currentToken = null;
+        loggedIn = false;
     }
 
     override function update(elapsed:Float):Void {

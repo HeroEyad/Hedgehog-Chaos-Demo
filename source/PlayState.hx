@@ -283,6 +283,8 @@ class PlayState extends MusicBeatState
 	public static var seenCutscene:Bool = false;
 	public static var deathCounter:Int = 0;
 
+	public var loggedIn:Bool = LoginScreen.loggedIn;
+
 	public var defaultCamZoom:Float = 1.05;
 
 	// how big to stretch the pixel art assets
@@ -3950,16 +3952,25 @@ else
 		if(ret != FunkinLua.Function_Stop && !transitioning) {
 			if (SONG.validScore)
 			{
+				var songName:String = Paths.formatToSongPath(SONG.song);
 				#if !switch
 				var percent:Float = ratingPercent;
 				if(Math.isNaN(percent)) percent = 0;
 				Highscore.saveScore(SONG.song, songScore, storyDifficulty, percent);
-				if (SONG.song == "chilidogs") {
-					FlxGameJolt.addScore(Std.string(songScore), Std.parseFloat(Std.string(songScore)), 925210, false, Std.string(percent));
-				} else if (SONG.song == "breakfast") {
-					FlxGameJolt.addScore(Std.string(songScore), Std.parseFloat(Std.string(songScore)), 925215, false, Std.string(percent));
-				} else if (SONG.song == "sage") {
-					FlxGameJolt.addScore(Std.string(songScore), Std.parseFloat(Std.string(songScore)), 925217, false, Std.string(percent));
+				if (loggedIn && !cpuControlled) {
+						if (songName == "chillidogs") {
+							FlxGameJolt.addScore(Std.string(songScore), Std.parseFloat(Std.string(songScore)), 925210, false, Std.string(percent));
+						} else if (songName == "breakfast") {
+							FlxGameJolt.addScore(Std.string(songScore), Std.parseFloat(Std.string(songScore)), 925215, false, Std.string(percent));
+						} else if (songName == "sage") {
+							FlxGameJolt.addScore(Std.string(songScore), Std.parseFloat(Std.string(songScore)), 925217, false, Std.string(percent));
+						} else if (songName == "huh-neat") {
+							FlxGameJolt.addScore(Std.string(songScore), Std.parseFloat(Std.string(songScore)), 925213, false, Std.string(percent));
+						} else if (songName == "step-up") {
+							FlxGameJolt.addScore(Std.string(songScore), Std.parseFloat(Std.string(songScore)), 925214, false, Std.string(percent));
+						} else if (songName == "really-3d") {
+							FlxGameJolt.addScore(Std.string(songScore), Std.parseFloat(Std.string(songScore)), 925216, false, Std.string(percent));
+						}
 				}
 				#end
 			}

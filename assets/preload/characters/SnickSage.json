@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				70,
+				-60
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "taunt1",
+			"indices": [],
+			"name": "taunt 1"
+		},
+		{
+			"offsets": [
+				100,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "taunt2",
+			"indices": [],
+			"name": "taunt 2"
+		},
+		{
+			"offsets": [
+				130,
+				-10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "taunt3",
+			"indices": [],
+			"name": "taunt 3"
+		},
+		{
+			"offsets": [
+				60,
+				-10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "taunt4",
+			"indices": [],
+			"name": "taunt 4"
+		},
+		{
+			"offsets": [
+				1,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				-7,
+				-20
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "up"
+		},
+		{
+			"offsets": [
+				20,
+				-20
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "right"
+		},
+		{
+			"offsets": [
+				80,
+				-20
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "left"
+		},
+		{
+			"offsets": [
+				4,
+				-6
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "down"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/Snick Sprites",
+	"position": [
+		150,
+		360
+	],
+	"healthicon": "SnickIcon",
+	"flip_x": false,
+	"healthbar_colors": [
+		224,
+		48,
+		0
+	],
+	"camera_position": [
+		-240,
+		-200
+	],
+	"sing_duration": 4,
+	"scale": 5
+}

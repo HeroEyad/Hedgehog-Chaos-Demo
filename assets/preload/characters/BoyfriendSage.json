@@ -1,25 +1,24 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				-380,
 				-290
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-336,
 				-289
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singUP",
-			"fps": 24,
-			"name": "up",
 			"indices": [
 				0,
 				1,
@@ -41,113 +40,17 @@
 				17,
 				18,
 				19
-			]
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-370,
-				-290
 			],
-			"anim": "singDOWN",
-			"fps": 24,
-			"name": "Down",
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15,
-				16,
-				17,
-				18,
-				19
-			]
+			"name": "up"
 		},
 		{
-			"loop": false,
-			"offsets": [
-				-350,
-				-290
-			],
-			"anim": "singUPmiss",
-			"fps": 24,
-			"name": "up fail",
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15,
-				16,
-				17,
-				18,
-				19
-			]
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-368,
-				-290
-			],
-			"anim": "singDOWNmiss",
-			"fps": 24,
-			"name": "Down fail",
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15,
-				16,
-				17,
-				18,
-				19
-			]
-		},
-		{
-			"loop": false,
 			"offsets": [
 				-338,
 				-289
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "left",
+			"anim": "singLEFT",
 			"indices": [
 				0,
 				1,
@@ -169,17 +72,17 @@
 				17,
 				18,
 				19
-			]
+			],
+			"name": "left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-341,
 				-290
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "right",
+			"anim": "singRIGHT",
 			"indices": [
 				0,
 				1,
@@ -201,17 +104,46 @@
 				17,
 				18,
 				19
-			]
+			],
+			"name": "right"
 		},
 		{
+			"offsets": [
+				-350,
+				-290
+			],
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19
+			],
+			"fps": 24,
+			"anim": "singUPmiss",
 			"loop": false,
+			"name": "up miss"
+		},
+		{
 			"offsets": [
 				-432,
 				-290
 			],
-			"anim": "singRIGHTmiss",
-			"fps": 24,
-			"name": "right fail",
 			"indices": [
 				0,
 				1,
@@ -233,17 +165,49 @@
 				17,
 				18,
 				19
-			]
+			],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "right miss"
 		},
 		{
+			"offsets": [
+				-368,
+				-290
+			],
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19
+			],
+			"fps": 24,
+			"anim": "singDOWNmiss",
 			"loop": false,
+			"name": "down miss"
+		},
+		{
 			"offsets": [
 				-370,
 				-290
 			],
-			"anim": "singLEFTmiss",
-			"fps": 24,
-			"name": "left fail",
 			"indices": [
 				0,
 				1,
@@ -265,11 +229,47 @@
 				17,
 				18,
 				19
-			]
+			],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "left miss"
+		},
+		{
+			"offsets": [
+				-370,
+				-290
+			],
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "down"
 		}
 	],
 	"no_antialiasing": true,
-	"image": "characters/BoyfriendSage",
+	"image": "characters/bf sprites alt",
 	"position": [
 		-240,
 		50

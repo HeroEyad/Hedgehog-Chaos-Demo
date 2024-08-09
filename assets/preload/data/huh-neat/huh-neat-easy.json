@@ -1,8 +1,269 @@
 {
 	"song": {
-		"player1": "bf-doekly",
-		"player2": "dorklysanico",
-		"events": [],
+		"player1": "dorkbf",
+		"player2": "dork",
+		"events": [
+			[
+				0,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.9,10,quartIn"
+					]
+				]
+			],
+			[
+				15000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.7,0.5,quartOut"
+					],
+					[
+						"Play Animation",
+						"huhn",
+						"Dad"
+					]
+				]
+			],
+			[
+				32000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.8,3,quartIn"
+					]
+				]
+			],
+			[
+				43750,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.75,0.3,quartOut"
+					]
+				]
+			],
+			[
+				44000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.7,0.3,quartOut"
+					]
+				]
+			],
+			[
+				46000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.8,0.3,quartOut"
+					],
+					[
+						"Play Animation",
+						"get",
+						"Dad"
+					]
+				]
+			],
+			[
+				79000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.75,0.3,expoIn"
+					]
+				]
+			],
+			[
+				79437.5,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.8,0.3,expoIn"
+					]
+				]
+			],
+			[
+				79750,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.75,0.3,expoIn"
+					]
+				]
+			],
+			[
+				80000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.9,4,quartIn"
+					]
+				]
+			],
+			[
+				84000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.7,0.5,quartOut"
+					]
+				]
+			],
+			[
+				84250,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.8,1.5,quartIn"
+					]
+				]
+			],
+			[
+				88000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.7,0.5,quartOut"
+					]
+				]
+			],
+			[
+				91500,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.72,0.5,linear"
+					]
+				]
+			],
+			[
+				91562.5,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.74,0.1,linear"
+					]
+				]
+			],
+			[
+				91625,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.76,0.1,linear"
+					]
+				]
+			],
+			[
+				91687.5,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.78,0.1,linear"
+					]
+				]
+			],
+			[
+				91750,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.8,0.1,linear"
+					]
+				]
+			],
+			[
+				96000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.7,1,quartOut"
+					]
+				]
+			],
+			[
+				104000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.75,1,quartIn"
+					]
+				]
+			],
+			[
+				105000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.8,1,quartIn"
+					]
+				]
+			],
+			[
+				106000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.85,1,quartIn"
+					]
+				]
+			],
+			[
+				107000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.9,1,quartIn"
+					]
+				]
+			],
+			[
+				108000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.7,4,quartOut"
+					]
+				]
+			],
+			[
+				119000,
+				[
+					[
+						"Play Animation",
+						"huhf",
+						"Dad"
+					]
+				]
+			]
+		],
 		"notes": [
 			{
 				"typeOfSection": 0,
@@ -76,18 +337,7 @@
 			},
 			{
 				"typeOfSection": 0,
-				"sectionNotes": [
-					[
-						15000,
-						6,
-						0
-					],
-					[
-						15500,
-						4,
-						0
-					]
-				],
+				"sectionNotes": [],
 				"sectionBeats": 4,
 				"altAnim": false,
 				"gfSection": false,
@@ -1027,56 +1277,6 @@
 						47750,
 						4,
 						0
-					],
-					[
-						46000,
-						0,
-						0
-					],
-					[
-						46166.6666666667,
-						3,
-						0
-					],
-					[
-						46416.6666666667,
-						2,
-						0
-					],
-					[
-						46666.6666666667,
-						1,
-						0
-					],
-					[
-						46750,
-						0,
-						0
-					],
-					[
-						46875,
-						3,
-						0
-					],
-					[
-						47000,
-						1,
-						125
-					],
-					[
-						47250,
-						0,
-						125
-					],
-					[
-						47500,
-						1,
-						125
-					],
-					[
-						47750,
-						3,
-						125
 					]
 				],
 				"sectionBeats": 4,
@@ -3236,28 +3436,7 @@
 			},
 			{
 				"typeOfSection": 0,
-				"sectionNotes": [
-					[
-						119000,
-						2,
-						0
-					],
-					[
-						119250,
-						0,
-						0
-					],
-					[
-						119500,
-						1,
-						125
-					],
-					[
-						119750,
-						0,
-						0
-					]
-				],
+				"sectionNotes": [],
 				"sectionBeats": 4,
 				"altAnim": false,
 				"gfSection": false,
@@ -3326,6 +3505,86 @@
 				"bpm": 120
 			},
 			{
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 120,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 120
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 120
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 120
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 120
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 120
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 120,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 120,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
 				"gfSection": false,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -3336,7 +3595,7 @@
 				"mustHitSection": true
 			}
 		],
-		"gfVersion": "gfdorkly",
+		"gfVersion": "dorkgf",
 		"splashSkin": "noteSplashes",
 		"song": "Huh Neat",
 		"validScore": true,

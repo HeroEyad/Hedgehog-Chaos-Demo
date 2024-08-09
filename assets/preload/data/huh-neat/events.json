@@ -1,0 +1,266 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.9,10,quartIn"
+					]
+				]
+			],
+			[
+				15000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.7,0.5,quartOut"
+					],
+					[
+						"Play Animation",
+						"huhn",
+						"Dad"
+					]
+				]
+			],
+			[
+				32000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.8,3,quartIn"
+					]
+				]
+			],
+			[
+				43750,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.75,0.3,quartOut"
+					]
+				]
+			],
+			[
+				44000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.7,0.3,quartOut"
+					]
+				]
+			],
+			[
+				46000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.8,0.3,quartOut"
+					],
+					[
+						"Play Animation",
+						"get",
+						"Dad"
+					]
+				]
+			],
+			[
+				79000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.75,0.3,expoIn"
+					]
+				]
+			],
+			[
+				79437.5,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.8,0.3,expoIn"
+					]
+				]
+			],
+			[
+				79750,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.75,0.3,expoIn"
+					]
+				]
+			],
+			[
+				80000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.9,4,quartIn"
+					]
+				]
+			],
+			[
+				84000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.7,0.5,quartOut"
+					]
+				]
+			],
+			[
+				84250,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.8,1.5,quartIn"
+					]
+				]
+			],
+			[
+				88000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.7,0.5,quartOut"
+					]
+				]
+			],
+			[
+				91500,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.72,0.5,linear"
+					]
+				]
+			],
+			[
+				91562.5,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.74,0.1,linear"
+					]
+				]
+			],
+			[
+				91625,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.76,0.1,linear"
+					]
+				]
+			],
+			[
+				91687.5,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.78,0.1,linear"
+					]
+				]
+			],
+			[
+				91750,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.8,0.1,linear"
+					]
+				]
+			],
+			[
+				96000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.7,1,quartOut"
+					]
+				]
+			],
+			[
+				104000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.75,1,quartIn"
+					]
+				]
+			],
+			[
+				105000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.8,1,quartIn"
+					]
+				]
+			],
+			[
+				106000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.85,1,quartIn"
+					]
+				]
+			],
+			[
+				107000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.9,1,quartIn"
+					]
+				]
+			],
+			[
+				108000,
+				[
+					[
+						"Bitto's zoom event",
+						"custom",
+						"0.7,4,quartOut"
+					]
+				]
+			],
+			[
+				119000,
+				[
+					[
+						"Play Animation",
+						"huhf",
+						"Dad"
+					]
+				]
+			]
+		]
+	}
+}
