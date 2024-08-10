@@ -171,7 +171,7 @@ class MainMenuState extends MusicBeatState
 	override function update(elapsed:Float)
 	{
 
-		if (FlxG.keys.justPressed.P) {
+		if (FlxG.keys.justPressed.P && user == null) {
 			MusicBeatState.switchState(new LoginScreen());
 		}
 		if (FlxG.sound.music.volume < 0.8)
@@ -236,7 +236,7 @@ class MainMenuState extends MusicBeatState
 								switch (daChoice)
 								{
 									case 'story_mode':
-										PlayState.storyPlaylist = ["Step-Up", "Breakfast", "Chilidogs", "Huh-Neat", "Really-3D"];
+										PlayState.storyPlaylist = ["Step-Up", "Breakfast", "Chilidogs", "Huh-Neat", "Really-3D", "Sage"];
 										PlayState.isStoryMode = true;
 										PlayState.storyWeek =0;
 				

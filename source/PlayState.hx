@@ -719,7 +719,7 @@ class PlayState extends MusicBeatState
 				add(forhirelagenhet);
 				
 				var forhirelagenhet2:BGSprite = new BGSprite('forhire2', -500, -200);
-				foregroundFlxSprites.add(forhirelagenhet2);
+				add(forhirelagenhet2);
 			
 			case 'really3d':
 				GameOverSubstate.characterName = 'really3Ddeath';

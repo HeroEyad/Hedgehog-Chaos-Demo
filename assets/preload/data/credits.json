@@ -146,8 +146,14 @@
       {
         "name": "YZ10",
         "icon": "YZ10",
-        "desc": "Responsible for everything related to Really 3D, Sage ranks",
+        "desc": "Responsible for everything related to Really 3D",
         "link": "https://twitter.com/FnfYz10"
+      },
+      {
+        "name": "ZapsSpeed",
+        "icon": "zaps",
+        "desc": "Made the Healthbar and Arrows",
+        "link": "https://x.com/UWUBigRat"
       },
       {
         "name": "Mele",
@@ -481,12 +487,6 @@
           "icon": "pablito",
           "desc": "Helped Hero with The Credits",
           "link": "https://twitter.com/GamerPablito1"
-      },
-      { 
-          "name": "Bitto",
-          "icon": "bitto",
-          "desc": "Bitto's Zoom Event.",
-          "link": "https://www.youtube.com/@Bitto1070"
       },
       {
         "name": "Fuzzysauce",

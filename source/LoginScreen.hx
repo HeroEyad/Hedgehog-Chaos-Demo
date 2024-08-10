@@ -60,6 +60,7 @@ class LoginScreen extends MusicBeatState {
         loginButton = new FlxButton(0, 400, "Login", onLoginClicked);
         loginButton.screenCenter(X);
         loginButton.scale.set(1.5, 1.5);
+        loginButton.x -= 100;
         add(loginButton);
 
         tokenButton = new FlxButton(0, 400, "How to Get Token", onToken);
