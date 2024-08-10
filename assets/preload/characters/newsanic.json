@@ -1,103 +1,103 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				380,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "idle"
+			"fps": 24,
+			"name": "idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				500,
-				0
+				-12
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "left"
+			"fps": 24,
+			"name": "left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				440,
+				420,
 				-40
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "down"
+			"fps": 24,
+			"name": "down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				260,
-				170
+				253,
+				163
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "up"
+			"fps": 24,
+			"name": "up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				311,
-				-40
+				319,
+				-50
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "right"
+			"fps": 24,
+			"name": "right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				470,
-				-60
+				485,
+				-64
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT-alt",
-			"loop": false,
-			"name": "horn right"
+			"fps": 24,
+			"name": "horn right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				480,
-				130
+				466,
+				154
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP-alt",
-			"loop": false,
-			"name": "horn up"
+			"fps": 24,
+			"name": "horn up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				431,
-				40
+				423,
+				41
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN-alt",
-			"loop": false,
-			"name": "horn down"
+			"fps": 24,
+			"name": "horn down",
+			"indices": []
 		},
 		{
-			"offsets": [
-				500,
-				-80
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singLEFT-alt",
 			"loop": false,
-			"name": " horn left"
+			"offsets": [
+				493,
+				-77
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": " horn left",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,

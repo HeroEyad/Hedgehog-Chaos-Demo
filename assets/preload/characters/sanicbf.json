@@ -14,8 +14,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				200,
-				-60
+				190,
+				-66
 			],
 			"anim": "singLEFT",
 			"fps": 24,
@@ -25,7 +25,7 @@
 		{
 			"loop": false,
 			"offsets": [
-				310,
+				380,
 				20
 			],
 			"anim": "singDOWN",
@@ -37,7 +37,7 @@
 			"loop": false,
 			"offsets": [
 				150,
-				60
+				160
 			],
 			"anim": "singUP",
 			"fps": 24,
@@ -58,8 +58,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				0,
-				-140
+				-4,
+				-150
 			],
 			"anim": "horn",
 			"fps": 24,
@@ -81,8 +81,8 @@
 		209
 	],
 	"camera_position": [
-		0,
-		0
+		340,
+		-20
 	],
 	"sing_duration": 6.1,
 	"scale": 1
